@@ -1,0 +1,123 @@
+{
+  "pid": 53716,
+  "asset": "/Game/Art/Meshes/Picture/Sofa/4/4.4",
+  "status": "ACTUAL_SOURCE_RENDERED_REQUIRES_VISUAL_REVIEW",
+  "rendered": true,
+  "expected_source_faces": 269742,
+  "max_submit_to_finish_seconds": 8.617995700333267,
+  "submission_materials": [
+    {
+      "id": "/Game/Art/MaterialInstances/Picture/Sofa/4/M_StandardMaterial1_PBR.M_StandardMaterial1_PBR",
+      "master": "Basic_StandardMaterial",
+      "status": "PARTIAL",
+      "notes": [
+        "full desktop master feature coverage has not passed validation",
+        "Actual final base color arithmetic attached; source NTB/view and rendered parity pending",
+        "Full master coverage not validated"
+      ],
+      "run_mode": "preview",
+      "degraded": false,
+      "coverage_status": "partial",
+      "native_material": "M_StandardMaterial1_PBR__base"
+    },
+    {
+      "id": "/Game/Art/MaterialInstances/Picture/Sofa/4/M_StandardMaterial_PBR.M_StandardMaterial_PBR",
+      "master": "Basic_StandardMaterial",
+      "status": "PARTIAL",
+      "notes": [
+        "full desktop master feature coverage has not passed validation",
+        "Actual final base color arithmetic attached; source NTB/view and rendered parity pending",
+        "Full master coverage not validated"
+      ],
+      "run_mode": "preview",
+      "degraded": false,
+      "coverage_status": "partial",
+      "native_material": "M_StandardMaterial_PBR__base"
+    },
+    {
+      "id": "/Game/Art/MaterialInstances/Picture/Sofa/4/M_StandardMaterial_Full_PBR.M_StandardMaterial_Full_PBR",
+      "master": "Basic_StandardMaterial",
+      "status": "PARTIAL",
+      "notes": [
+        "full desktop master feature coverage has not passed validation",
+        "Actual final base color arithmetic attached; source NTB/view and rendered parity pending",
+        "Full master coverage not validated"
+      ],
+      "run_mode": "preview",
+      "degraded": false,
+      "coverage_status": "partial",
+      "native_material": "M_StandardMaterial_Full_PBR__base"
+    },
+    {
+      "id": "/Game/Art/MaterialInstances/Picture/Sofa/4/M_StandardMaterial2_PBR.M_StandardMaterial2_PBR",
+      "master": "Basic_StandardMaterial",
+      "status": "PARTIAL",
+      "notes": [
+        "full desktop master feature coverage has not passed validation",
+        "Actual final base color arithmetic attached; source NTB/view and rendered parity pending",
+        "Full master coverage not validated"
+      ],
+      "run_mode": "preview",
+      "degraded": false,
+      "coverage_status": "partial",
+      "native_material": "M_StandardMaterial2_PBR__base"
+    }
+  ],
+  "scene_geometry": [
+    {
+      "id": "project_asset_test:/Game/Art/Meshes/Picture/Sofa/4/4.4",
+      "faces": 269742,
+      "uv": {
+        "restored_channels": [
+          3
+        ],
+        "verified_vertices": 809226,
+        "matched_faces": 269742,
+        "method": "sdk_verified_vertex_instances"
+      },
+      "basis": {
+        "reserved_channels": {
+          "pixel_tangent": 8,
+          "handedness": 9,
+          "normal": 11,
+          "tangent": 12,
+          "bitangent": 13
+        },
+        "marker_channel": 10,
+        "gpu_channel_compatible": true,
+        "verified_vertices": 809226,
+        "matched_faces": 269742,
+        "status": "RESTORED_UNVERIFIED"
+      },
+      "slots": {
+        "status": "PASS",
+        "face_checks": 269742,
+        "remapped": true,
+        "slot_ids": {
+          "0": 2,
+          "1": 3,
+          "2": 4,
+          "3": 5
+        },
+        "source_face_counts": {
+          "0": 4444,
+          "1": 5832,
+          "2": 254090,
+          "3": 5376
+        }
+      },
+      "stages_ms": {
+        "native_glb_import": 795.7811001688242,
+        "source_uv_basis_native_restore": 1133.3427000790834,
+        "source_parse_in_native": true,
+        "native_source_write": 762.811,
+        "source_slot_audit_and_remap_in_native": true,
+        "source_slot_remap": 0.0013997778296470642,
+        "source_native_inputs": 242.47090006247163
+      },
+      "glass_mode": null,
+      "geometry_cache_hit": false
+    }
+  ],
+  "scope": "Max submit-to-finish, not UE export or rendering or user-click end-to-end"
+}

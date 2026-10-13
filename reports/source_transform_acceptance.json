@@ -1,0 +1,114 @@
+{
+  "status": "PASS",
+  "results": [
+    {
+      "label": "nonuniform_position",
+      "status": "COMPARISON_INTERIOR_PASS",
+      "counts": {
+        "white": 121123,
+        "red": 0,
+        "blue": 0,
+        "magenta": 0
+      },
+      "tolerance": 0.02,
+      "axis_lengths": [
+        2.0,
+        0.5,
+        1.2999999523162842
+      ],
+      "faces": 66115,
+      "image": "workspace/diagnostics/source_transforms_20261013/nonuniform_position_1920.png"
+    },
+    {
+      "label": "nonuniform_normal",
+      "status": "COMPARISON_INTERIOR_PASS",
+      "counts": {
+        "white": 121114,
+        "red": 0,
+        "blue": 0,
+        "magenta": 0
+      },
+      "tolerance": 0.003,
+      "axis_lengths": [
+        2.0,
+        0.5,
+        1.2999999523162842
+      ],
+      "faces": 66115,
+      "image": "workspace/diagnostics/source_transforms_20261013/nonuniform_normal_1920.png"
+    },
+    {
+      "label": "nonuniform_halo",
+      "status": "COMPARISON_INTERIOR_PASS",
+      "counts": {
+        "white": 121129,
+        "red": 0,
+        "blue": 0,
+        "magenta": 0
+      },
+      "tolerance": 0.002,
+      "axis_lengths": [
+        2.0,
+        0.5,
+        1.2999999523162842
+      ],
+      "faces": 66115,
+      "image": "workspace/diagnostics/source_transforms_20261013/nonuniform_halo_1920.png"
+    },
+    {
+      "label": "mirrored_position",
+      "status": "COMPARISON_INTERIOR_PASS",
+      "counts": {
+        "white": 113795,
+        "red": 0,
+        "blue": 0,
+        "magenta": 0
+      },
+      "tolerance": 0.02,
+      "axis_lengths": [
+        2.0,
+        0.5,
+        1.2999999523162842
+      ],
+      "faces": 66115,
+      "image": "workspace/diagnostics/source_transforms_20261013/mirrored_position_1920.png"
+    },
+    {
+      "label": "mirrored_normal",
+      "status": "COMPARISON_INTERIOR_PASS",
+      "counts": {
+        "white": 113795,
+        "red": 0,
+        "blue": 0,
+        "magenta": 0
+      },
+      "tolerance": 0.003,
+      "axis_lengths": [
+        2.0,
+        0.5,
+        1.2999999523162842
+      ],
+      "faces": 66115,
+      "image": "workspace/diagnostics/source_transforms_20261013/mirrored_normal_1920.png"
+    },
+    {
+      "label": "mirrored_halo",
+      "status": "COMPARISON_INTERIOR_PASS",
+      "counts": {
+        "white": 113797,
+        "red": 0,
+        "blue": 0,
+        "magenta": 0
+      },
+      "tolerance": 0.002,
+      "axis_lengths": [
+        2.0,
+        0.5,
+        1.2999999523162842
+      ],
+      "faces": 66115,
+      "image": "workspace/diagnostics/source_transforms_20261013/mirrored_halo_1920.png"
+    }
+  ],
+  "scope": "Isolated source position, VertexNormalWS-to-local and saved Halo formulas only; excludes background/antialiased edges. No Fuzzy BRDF, anisotropy energy/direction, final LampShade optics, shear, other meshes or complete thirteen-family acceptance claimed."
+}

@@ -1,0 +1,110 @@
+{
+  "docs/INSTALL_20261013.md": {
+    "sha256": "983ae8a20673c4c98fc43d75362f86243235b96d7653fecfa2465f10f0a3cf74",
+    "bytes": 1394
+  },
+  "images/curtain/UE_BASE_COLOR_1920.png": {
+    "sha256": "1a247e4c09cf688f1dd7f36959c26e101f74efe78dbbaa4286edb27e3d95013d",
+    "bytes": 1173227
+  },
+  "images/curtain/UE_LIT_UNCALIBRATED_1920.png": {
+    "sha256": "c05e6d357e88d3102405e44bbca15b140100a7f65593ef9cf8aac485343b816c",
+    "bytes": 1624447
+  },
+  "images/curtain/VRAY_BASE_COLOR_CURRENT_1920.png": {
+    "sha256": "a98646d14e8d240d1bbc315360e6996b5ae0125a41f07860b76239a6dab25a94",
+    "bytes": 1199171
+  },
+  "images/curtain/VRAY_LINEAR_FILTER_EXPERIMENT_1920.png": {
+    "sha256": "51eb5b4ba1848ba15379b0e5e59b58e582286c77de5716165b9048ae61280542",
+    "bytes": 1227848
+  },
+  "images/curtain/VRAY_LIT_CURRENT_1920.png": {
+    "sha256": "e6d145c46d9e1a62e5dea1e8bc24ce9ab45c6cab8c034353ba9fb6b71d1dccfc",
+    "bytes": 564107
+  },
+  "images/sofa/SOURCE_FULL_269742_FACES_1920.png": {
+    "sha256": "dd62c0948e1aafa1abd01d95b929b13333f14a02c81b7812f14c919a24dc2516",
+    "bytes": 444946
+  },
+  "images/source_facing/mirrored_camera_1920.png": {
+    "sha256": "659f78910bf0645bf06002755dfa85579c6a2c092607d4bc39cb85f584337924",
+    "bytes": 40820
+  },
+  "images/source_facing/mirrored_side_1920.png": {
+    "sha256": "0bcb687d8e1c1774f798edaf6de40e298af1a460a24b1d2b3a5026c05086f46c",
+    "bytes": 40831
+  },
+  "images/source_facing/nonuniform_camera_1920.png": {
+    "sha256": "2480215139bd322575ef091ad1ee923588a58098d2bcd0058e34c49fe0036804",
+    "bytes": 41806
+  },
+  "images/source_facing/nonuniform_side_1920.png": {
+    "sha256": "786c077a3e7bf232f6fe8cbb85e17ee73e269c7afd77d338c84210090bad916b",
+    "bytes": 41763
+  },
+  "README.md": {
+    "sha256": "b42203762427ef2a776c8a9295a903b7ab5360b67cf7824003c609cd0ec4201c",
+    "bytes": 8374
+  },
+  "reports/13_master_status.json": {
+    "sha256": "6dc4e0f58e0741d0b2b0423641e7386325120546a13c64a767a7fd4ee9bf008f",
+    "bytes": 4104
+  },
+  "reports/basecolor_boundary_and_filter_gate.json": {
+    "sha256": "72b637d20e3ad91c8fe49019a2b2e97575d0872459b011173f8a2d3119a65b51",
+    "bytes": 2783
+  },
+  "reports/curtain_current_sync.json": {
+    "sha256": "3b5ab0660d485d8b025100bf3ca3c670394ec8f3566b3e7593ba6d5a844d42de",
+    "bytes": 2933
+  },
+  "reports/curtain_source_pair.json": {
+    "sha256": "f5d78556fb8b38d207075504d15c2bd6d0fee4a5e7c782380494cf672a525878",
+    "bytes": 1274
+  },
+  "reports/curtain_ue_capture.json": {
+    "sha256": "99ef286830518972164d3c7aa750dc37317ac999b15261a2bd7e70d5102f2c8b",
+    "bytes": 1915
+  },
+  "reports/delivered_package_verification.json": {
+    "sha256": "62e2d96edb4a154ba2aaffb5703b32a4f4cb15cdb460c48d1c04a9599b25f280",
+    "bytes": 1745
+  },
+  "reports/delivered_zip_verification.json": {
+    "sha256": "d22ebe255648eb2e81175f5ba446cc0f533c922c7f3bb66170b618742268b72c",
+    "bytes": 285
+  },
+  "reports/fresh_13_source_program_compile.json": {
+    "sha256": "40a7697944e35579ecb1244966808ad9cb6e9c6d4d1be5650b504f7b0e17bc4b",
+    "bytes": 55704
+  },
+  "reports/linear_filter_actual_pair.json": {
+    "sha256": "c956e57827a8a618678f447bcff0d2db73f9a6542a9199a3b096ca433adb2175",
+    "bytes": 1561
+  },
+  "reports/linear_filter_gpu_render.json": {
+    "sha256": "c8bcbb15cc542bff96a66883c5c1b0d8030680d02c95b0281fc5620df5845a11",
+    "bytes": 2493
+  },
+  "reports/linear_filter_native_gate.json": {
+    "sha256": "009c29d18a2ee0466f6736c98db6e5868a278c4de1e30db4377e667d8eea4613",
+    "bytes": 586
+  },
+  "reports/sofa_current_sync.json": {
+    "sha256": "1789ab567e4fcd6c878f141d7ec839cfdb78c3ccb54aefeafcbaa544a0c5b357",
+    "bytes": 4295
+  },
+  "reports/sofa_v4_source_transfer.json": {
+    "sha256": "f8a1242eb491f8f1b9be305584895b71c59a3216c0df8840c45437f9b09b2124",
+    "bytes": 1591
+  },
+  "reports/source_facing_gpu_acceptance.json": {
+    "sha256": "377f1e7c87de6ffb48318863349ee8c0f43715d06abfbbbe4ed0d07b11767782",
+    "bytes": 1378
+  },
+  "reports/source_transform_acceptance.json": {
+    "sha256": "d65fd678b37875ffb411a736e7fdd1aeb042df0a72bc52c8ba6b6c70b9149cf8",
+    "bytes": 2989
+  }
+}

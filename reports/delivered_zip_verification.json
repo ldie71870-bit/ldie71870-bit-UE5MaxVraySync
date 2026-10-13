@@ -1,0 +1,8 @@
+{
+  "status": "PASS_ZIP_CRC_AND_ALL_FILE_HASHES",
+  "archive": "workspace/delivery/UE5MaxVraySync_FullPreview_20261013.zip",
+  "bytes": 518977572,
+  "sha256": "4c3fa6d901c5a44c6b6682b1ddc2cc5af1e7ed9cf0755f1b6b5d93cb5678efc1",
+  "files": 574,
+  "acceptance": "PARTIAL_PREVIEW"
+}

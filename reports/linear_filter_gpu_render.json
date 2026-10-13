@@ -1,0 +1,88 @@
+{
+  "pid": 53716,
+  "status": "IMAGE_CREATED_REQUIRES_REVIEW",
+  "scope": "Actual assigned source mesh and complete materials; Max in-process current V-Ray, no standalone executable or licensing changes",
+  "renderer": "V_Ray_GPU_7__update_4_DR2",
+  "effect": "source_base_color_linear_filtered",
+  "previous_output_conversion": [
+    "displayViewTransform",
+    "",
+    "sRGB",
+    "ACES 1.0 SDR-video"
+  ],
+  "data_output_conversion": "NoConversion; original scene rendering primaries retained; data comparison only",
+  "temporary_linear_filter_inputs": [
+    {
+      "map": "UE5MV_Texture_c3e317a2e583f44f_Sheer_Color_Tex__RGB.tga",
+      "source_file": "workspace/runtime_cache/textures/c3e317a2e583f44f_Sheer_Color_Tex__RGB.tga",
+      "linear_file": "workspace/runtime_cache/textures/linear_sampling/5f826fde1a6219b00f89aa02_srgb8-linear16-v1.png"
+    }
+  ],
+  "source_base_color_probe": {
+    "source_material": "M_Sheers_PBR__base",
+    "source_map": "M_Sheers_PBR__UE_FinalBaseColorBoundary",
+    "cutout_retained": true,
+    "scope": "Actual final source BaseColor as emission data; not final lit material"
+  },
+  "mesh": "PROJECT_TEST_curtain_260325",
+  "faces": 8996,
+  "radius": 2705.710431515239,
+  "limit_properties": {
+    "progressive_raysPerPixel": "True",
+    "max_render_time": "0.0",
+    "output_progressiveAutoSave": "0.0",
+    "fx_progressive_update": "10"
+  },
+  "quality": "review",
+  "width": 1920,
+  "height": 1440,
+  "sampling_limit_minutes": 0.5,
+  "surface_camera_axis": "X",
+  "world_extents": [
+    217.68960571289062,
+    863.65478515625,
+    2705.71044921875
+  ],
+  "camera_shot": "surface",
+  "camera_fov_degrees": 40.0,
+  "light_mode": "inspection",
+  "image": "MAX_CACHE/reports/native_render/VRAY_1791859329484463900.png",
+  "image_bytes": 1227848,
+  "pixel_samples": [
+    {
+      "fraction": [
+        0.5,
+        0.625
+      ],
+      "rgb": [
+        0.8509803921568627,
+        0.8588235294117647,
+        0.8549019607843137
+      ]
+    },
+    {
+      "fraction": [
+        0.7,
+        0.55
+      ],
+      "rgb": [
+        0.3137254901960784,
+        0.3137254901960784,
+        0.3137254901960784
+      ]
+    },
+    {
+      "fraction": [
+        0.05,
+        0.05
+      ],
+      "rgb": [
+        0.3137254901960784,
+        0.3137254901960784,
+        0.3137254901960784
+      ]
+    }
+  ],
+  "output_conversion_restored": true,
+  "seconds": 46.62596799992025
+}

@@ -1,0 +1,23 @@
+{
+  "status": "PASS_NATIVE_LINEAR_FILTER",
+  "cases": [
+    {
+      "mode": "old_raw_then_decode",
+      "rgb": [
+        0.21403829537185967,
+        0.21403829537185967,
+        0.21403829537185967
+      ]
+    },
+    {
+      "mode": "linear_before_filter",
+      "rgb": [
+        0.49999237060546875,
+        0.49999237060546875,
+        0.49999237060546875
+      ]
+    }
+  ],
+  "expected_linear_midpoint": 0.5,
+  "scope": "Native renderMap texture interpolation only. Does not certify GPU file reading, actual source mips/filtering or thirteen-family optics."
+}

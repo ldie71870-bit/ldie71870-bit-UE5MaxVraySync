@@ -1,0 +1,61 @@
+{
+  "status": "EXACT_SOURCE_MAPS_TRANSFERRED",
+  "vertices": 809226,
+  "faces": 269742,
+  "channels": 9,
+  "geometry_unchanged": true,
+  "other_maps_unchanged": true,
+  "specified_normals_unchanged": true,
+  "seconds": 0.620552,
+  "source_slots": {
+    "status": "PASS",
+    "face_checks": 269742,
+    "remapped": true,
+    "slot_ids": {
+      "0": 1,
+      "1": 2,
+      "2": 3,
+      "3": 4
+    },
+    "source_face_counts": {
+      "0": 4444,
+      "1": 5832,
+      "2": 254090,
+      "3": 5376
+    }
+  },
+  "python_and_native_seconds": 3.108805099967867,
+  "raw_glb_transfer": {
+    "status": "EXACT_SOURCE_MAPS_TRANSFERRED",
+    "vertices": 809226,
+    "faces": 269742,
+    "channels": 9,
+    "geometry_unchanged": true,
+    "other_maps_unchanged": true,
+    "specified_normals_unchanged": true,
+    "seconds": 0.791026,
+    "source_slots": {
+      "status": "PASS",
+      "face_checks": 269742,
+      "remapped": true,
+      "slot_ids": {
+        "0": 1,
+        "1": 2,
+        "2": 3,
+        "3": 4
+      },
+      "source_face_counts": {
+        "0": 4444,
+        "1": 5832,
+        "2": 254090,
+        "3": 5376
+      }
+    },
+    "python_and_native_seconds": 1.0534386998042464,
+    "existing_reference_byte_match": true
+  },
+  "source_basis_read_seconds": 4.494646599981934,
+  "source_asset": "/Game/Art/Meshes/Picture/Sofa/4/4.4",
+  "pid": 53716,
+  "scope": "Actual full sofa copy: source basis, encoded GPU basis, marker and third UV transferred; original scene/source asset untouched; no final optical acceptance"
+}

@@ -1,0 +1,50 @@
+{
+  "status": "PASS",
+  "results": [
+    {
+      "label": "nonuniform_camera",
+      "status": "COMPARISON_INTERIOR_PASS",
+      "counts": {
+        "white": 121128,
+        "red": 0,
+        "blue": 0,
+        "magenta": 0
+      },
+      "image": "workspace/diagnostics/source_view_gpu_20261013/nonuniform_camera_1920.png"
+    },
+    {
+      "label": "nonuniform_side",
+      "status": "COMPARISON_INTERIOR_PASS",
+      "counts": {
+        "white": 121129,
+        "red": 0,
+        "blue": 0,
+        "magenta": 0
+      },
+      "image": "workspace/diagnostics/source_view_gpu_20261013/nonuniform_side_1920.png"
+    },
+    {
+      "label": "mirrored_camera",
+      "status": "COMPARISON_INTERIOR_PASS",
+      "counts": {
+        "white": 113795,
+        "red": 0,
+        "blue": 0,
+        "magenta": 0
+      },
+      "image": "workspace/diagnostics/source_view_gpu_20261013/mirrored_camera_1920.png"
+    },
+    {
+      "label": "mirrored_side",
+      "status": "COMPARISON_INTERIOR_PASS",
+      "counts": {
+        "white": 113797,
+        "red": 0,
+        "blue": 0,
+        "magenta": 0
+      },
+      "image": "workspace/diagnostics/source_view_gpu_20261013/mirrored_side_1920.png"
+    }
+  ],
+  "scope": "Complete 66115-face project bed; isolated camera/TwoSidedSign GPU calculation, not final Fuzzy optical acceptance"
+}

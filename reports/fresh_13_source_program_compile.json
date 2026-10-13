@@ -1,0 +1,929 @@
+{
+  "scope": "Fresh actual mapped programs from thirteen sources plus saved LampShade variants; installed V-Ray OSL compiler only, not renderer acceptance",
+  "source_read_started_unix": 1791824691.8598957,
+  "programs": 97,
+  "passed": 97,
+  "generation_errors": [],
+  "results": [
+    {
+      "source_hash": "020bda2c0e50efac3c389d056584f2bd5378112763d344d153996dc734448f86",
+      "sources": [
+        "Basic_StandardMaterial/opacity_program/mask_program",
+        "Basic_StandardMaterial/color_multiplier_program",
+        "Basic_Anisotropy_Material/opacity_program/mask_program",
+        "Basic_BubbleColor_Material/opacity_program/mask_program",
+        "Basic_Dynamic_LampShade_Material/opacity_program/mask_program",
+        "Basic_Fabric_Material/opacity_program/mask_program",
+        "Basic_Foliage_Material/subsurface_opacity_program",
+        "Basic_TilingWithFrames_Material/opacity_program/mask_program",
+        "M_LampShade_Emi_Inst/opacity_program/mask_program",
+        "M_LampShade_Cone_Inst/opacity_program/mask_program",
+        "M_LampShade_EmiCone_Inst/opacity_program/mask_program"
+      ],
+      "status": "PASS",
+      "returncode": 0,
+      "diagnostics": "Compiled workspace/diagnostics/source_context_20261012/020bda2c0e50efac3c389d056584f2bd5378112763d344d153996dc734448f86.osl -> workspace/diagnostics/source_context_20261012/020bda2c0e50efac3c389d056584f2bd5378112763d344d153996dc734448f86.oso\n"
+    },
+    {
+      "source_hash": "f2b176a93158d1b26297ca8de4a1034c432cace1b55c477f532c2e563a6695ee",
+      "sources": [
+        "Basic_StandardMaterial/base_color_program"
+      ],
+      "status": "PASS",
+      "returncode": 0,
+      "diagnostics": "Compiled workspace/diagnostics/source_context_20261012/f2b176a93158d1b26297ca8de4a1034c432cace1b55c477f532c2e563a6695ee.osl -> workspace/diagnostics/source_context_20261012/f2b176a93158d1b26297ca8de4a1034c432cace1b55c477f532c2e563a6695ee.oso\n"
+    },
+    {
+      "source_hash": "eeeaf9fec00f961b2b71de1cb08f53c60b1219f5971730094b1167f8c1cd6957",
+      "sources": [
+        "Basic_StandardMaterial/normal_program",
+        "Basic_Fabric_Material/normal_program"
+      ],
+      "status": "PASS",
+      "returncode": 0,
+      "diagnostics": "Compiled workspace/diagnostics/source_context_20261012/eeeaf9fec00f961b2b71de1cb08f53c60b1219f5971730094b1167f8c1cd6957.osl -> workspace/diagnostics/source_context_20261012/eeeaf9fec00f961b2b71de1cb08f53c60b1219f5971730094b1167f8c1cd6957.oso\n"
+    },
+    {
+      "source_hash": "83f38f24fd61d2ddd7075515d1a076307fd55eba3c8ad2ca00f6d1cee1e11c3c",
+      "sources": [
+        "Basic_StandardMaterial/surface_programs/metallic",
+        "Basic_Dynamic_LampShade_Material/surface_programs/metallic",
+        "Basic_Fabric_Material/surface_programs/metallic",
+        "Basic_TilingWithFrames_Material/surface_programs/metallic",
+        "M_LampShade_Emi_Inst/surface_programs/metallic",
+        "M_LampShade_Cone_Inst/surface_programs/metallic",
+        "M_LampShade_EmiCone_Inst/surface_programs/metallic"
+      ],
+      "status": "PASS",
+      "returncode": 0,
+      "diagnostics": "Compiled workspace/diagnostics/source_context_20261012/83f38f24fd61d2ddd7075515d1a076307fd55eba3c8ad2ca00f6d1cee1e11c3c.osl -> workspace/diagnostics/source_context_20261012/83f38f24fd61d2ddd7075515d1a076307fd55eba3c8ad2ca00f6d1cee1e11c3c.oso\n"
+    },
+    {
+      "source_hash": "018558f93afeb94d45096b1bacb520a7c1bea50f6160d036f4cfe7562c77f572",
+      "sources": [
+        "Basic_StandardMaterial/surface_programs/roughness",
+        "Basic_Dynamic_LampShade_Material/surface_programs/roughness",
+        "Basic_Fabric_Material/surface_programs/roughness",
+        "Basic_TilingWithFrames_Material/surface_programs/roughness",
+        "M_LampShade_Emi_Inst/surface_programs/roughness",
+        "M_LampShade_Cone_Inst/surface_programs/roughness",
+        "M_LampShade_EmiCone_Inst/surface_programs/roughness"
+      ],
+      "status": "PASS",
+      "returncode": 0,
+      "diagnostics": "Compiled workspace/diagnostics/source_context_20261012/018558f93afeb94d45096b1bacb520a7c1bea50f6160d036f4cfe7562c77f572.osl -> workspace/diagnostics/source_context_20261012/018558f93afeb94d45096b1bacb520a7c1bea50f6160d036f4cfe7562c77f572.oso\n"
+    },
+    {
+      "source_hash": "2d8f355787e376d60ed4c83db38a9bb41bf9930f28e74bc80fda641716e5b57f",
+      "sources": [
+        "Basic_GLB_Material/normal_program"
+      ],
+      "status": "PASS",
+      "returncode": 0,
+      "diagnostics": "Compiled workspace/diagnostics/source_context_20261012/2d8f355787e376d60ed4c83db38a9bb41bf9930f28e74bc80fda641716e5b57f.osl -> workspace/diagnostics/source_context_20261012/2d8f355787e376d60ed4c83db38a9bb41bf9930f28e74bc80fda641716e5b57f.oso\n"
+    },
+    {
+      "source_hash": "0369fb0c0a5199c46a57391bace3fd2e26eb932ea4ff58ae95bca8d08e2eeb49",
+      "sources": [
+        "Basic_GLB_Material/base_color_program"
+      ],
+      "status": "PASS",
+      "returncode": 0,
+      "diagnostics": "Compiled workspace/diagnostics/source_context_20261012/0369fb0c0a5199c46a57391bace3fd2e26eb932ea4ff58ae95bca8d08e2eeb49.osl -> workspace/diagnostics/source_context_20261012/0369fb0c0a5199c46a57391bace3fd2e26eb932ea4ff58ae95bca8d08e2eeb49.oso\n"
+    },
+    {
+      "source_hash": "694f1fc7e1033da71e8a577680fc246babf57b1960bf392d5b3d2cd489fe1462",
+      "sources": [
+        "Basic_GLB_Material/surface_programs/metallic"
+      ],
+      "status": "PASS",
+      "returncode": 0,
+      "diagnostics": "Compiled workspace/diagnostics/source_context_20261012/694f1fc7e1033da71e8a577680fc246babf57b1960bf392d5b3d2cd489fe1462.osl -> workspace/diagnostics/source_context_20261012/694f1fc7e1033da71e8a577680fc246babf57b1960bf392d5b3d2cd489fe1462.oso\n"
+    },
+    {
+      "source_hash": "a7b5fcbf70d86673be6fb9a924ec45b34b7e86cc0e52b1ac49c309e0add213fb",
+      "sources": [
+        "Basic_GLB_Material/surface_programs/roughness"
+      ],
+      "status": "PASS",
+      "returncode": 0,
+      "diagnostics": "Compiled workspace/diagnostics/source_context_20261012/a7b5fcbf70d86673be6fb9a924ec45b34b7e86cc0e52b1ac49c309e0add213fb.osl -> workspace/diagnostics/source_context_20261012/a7b5fcbf70d86673be6fb9a924ec45b34b7e86cc0e52b1ac49c309e0add213fb.oso\n"
+    },
+    {
+      "source_hash": "e9d814d6f475c80602ac8760ab8af1157f4a3404a57ac9ca59e6f90b0acb7fba",
+      "sources": [
+        "Basic_Anisotropy_Material/normal_program"
+      ],
+      "status": "PASS",
+      "returncode": 0,
+      "diagnostics": "Compiled workspace/diagnostics/source_context_20261012/e9d814d6f475c80602ac8760ab8af1157f4a3404a57ac9ca59e6f90b0acb7fba.osl -> workspace/diagnostics/source_context_20261012/e9d814d6f475c80602ac8760ab8af1157f4a3404a57ac9ca59e6f90b0acb7fba.oso\n"
+    },
+    {
+      "source_hash": "afe670d26a03b5a3a6a329c48b7f2b1d1f841c1a10b45f415e2957c53b7bd72a",
+      "sources": [
+        "Basic_Anisotropy_Material/base_color_program"
+      ],
+      "status": "PASS",
+      "returncode": 0,
+      "diagnostics": "Compiled workspace/diagnostics/source_context_20261012/afe670d26a03b5a3a6a329c48b7f2b1d1f841c1a10b45f415e2957c53b7bd72a.osl -> workspace/diagnostics/source_context_20261012/afe670d26a03b5a3a6a329c48b7f2b1d1f841c1a10b45f415e2957c53b7bd72a.oso\n"
+    },
+    {
+      "source_hash": "f0ac1968619ab980b29ab2d31c629ce99e0dae5b74cba17c6f4e49b71c02cb8e",
+      "sources": [
+        "Basic_Anisotropy_Material/surface_programs/metallic"
+      ],
+      "status": "PASS",
+      "returncode": 0,
+      "diagnostics": "Compiled workspace/diagnostics/source_context_20261012/f0ac1968619ab980b29ab2d31c629ce99e0dae5b74cba17c6f4e49b71c02cb8e.osl -> workspace/diagnostics/source_context_20261012/f0ac1968619ab980b29ab2d31c629ce99e0dae5b74cba17c6f4e49b71c02cb8e.oso\n"
+    },
+    {
+      "source_hash": "4bd3e9836c3f1401013622442c6f78685426d555e91dd4a7f18290ab960d121c",
+      "sources": [
+        "Basic_Anisotropy_Material/surface_programs/roughness"
+      ],
+      "status": "PASS",
+      "returncode": 0,
+      "diagnostics": "Compiled workspace/diagnostics/source_context_20261012/4bd3e9836c3f1401013622442c6f78685426d555e91dd4a7f18290ab960d121c.osl -> workspace/diagnostics/source_context_20261012/4bd3e9836c3f1401013622442c6f78685426d555e91dd4a7f18290ab960d121c.oso\n"
+    },
+    {
+      "source_hash": "189814b7d1b43b027c945ae31cc5e7924f0365ed3e085cba88d5cc8269500b3b",
+      "sources": [
+        "Basic_Anisotropy_Material/surface_programs/anisotropy"
+      ],
+      "status": "PASS",
+      "returncode": 0,
+      "diagnostics": "Compiled workspace/diagnostics/source_context_20261012/189814b7d1b43b027c945ae31cc5e7924f0365ed3e085cba88d5cc8269500b3b.osl -> workspace/diagnostics/source_context_20261012/189814b7d1b43b027c945ae31cc5e7924f0365ed3e085cba88d5cc8269500b3b.oso\n"
+    },
+    {
+      "source_hash": "5551a9df66dbce9d83d71d19a4a52e70d1815095ec38e3f85e710f6fc41ea9dd",
+      "sources": [
+        "Basic_Anisotropy_Material/tangent_program"
+      ],
+      "status": "PASS",
+      "returncode": 0,
+      "diagnostics": "Compiled workspace/diagnostics/source_context_20261012/5551a9df66dbce9d83d71d19a4a52e70d1815095ec38e3f85e710f6fc41ea9dd.osl -> workspace/diagnostics/source_context_20261012/5551a9df66dbce9d83d71d19a4a52e70d1815095ec38e3f85e710f6fc41ea9dd.oso\n"
+    },
+    {
+      "source_hash": "1a54ee97f48e6207834f66b7ecc10d02d5705fdbf3851b0034635694f908d4fe",
+      "sources": [
+        "Basic_BubbleColor_Material/emission_program/program"
+      ],
+      "status": "PASS",
+      "returncode": 0,
+      "diagnostics": "Compiled workspace/diagnostics/source_context_20261012/1a54ee97f48e6207834f66b7ecc10d02d5705fdbf3851b0034635694f908d4fe.osl -> workspace/diagnostics/source_context_20261012/1a54ee97f48e6207834f66b7ecc10d02d5705fdbf3851b0034635694f908d4fe.oso\n"
+    },
+    {
+      "source_hash": "e640bec34e1cc216a42ba36ebad60110510bc7085a19d5ef2d6993369d1ef94d",
+      "sources": [
+        "Basic_BubbleColor_Material/normal_program"
+      ],
+      "status": "PASS",
+      "returncode": 0,
+      "diagnostics": "Compiled workspace/diagnostics/source_context_20261012/e640bec34e1cc216a42ba36ebad60110510bc7085a19d5ef2d6993369d1ef94d.osl -> workspace/diagnostics/source_context_20261012/e640bec34e1cc216a42ba36ebad60110510bc7085a19d5ef2d6993369d1ef94d.oso\n"
+    },
+    {
+      "source_hash": "e072bba66bad87434f11f515d258486d116e0709a96acfa36316b4f167fc8b41",
+      "sources": [
+        "Basic_BubbleColor_Material/base_color_program"
+      ],
+      "status": "PASS",
+      "returncode": 0,
+      "diagnostics": "Compiled workspace/diagnostics/source_context_20261012/e072bba66bad87434f11f515d258486d116e0709a96acfa36316b4f167fc8b41.osl -> workspace/diagnostics/source_context_20261012/e072bba66bad87434f11f515d258486d116e0709a96acfa36316b4f167fc8b41.oso\n"
+    },
+    {
+      "source_hash": "9b52b9672283f7b2e84f3df143e1130349e5b93a8693914cd39060606a135407",
+      "sources": [
+        "Basic_BubbleColor_Material/surface_programs/metallic"
+      ],
+      "status": "PASS",
+      "returncode": 0,
+      "diagnostics": "Compiled workspace/diagnostics/source_context_20261012/9b52b9672283f7b2e84f3df143e1130349e5b93a8693914cd39060606a135407.osl -> workspace/diagnostics/source_context_20261012/9b52b9672283f7b2e84f3df143e1130349e5b93a8693914cd39060606a135407.oso\n"
+    },
+    {
+      "source_hash": "6e9140943dbbb28a82e19eaf82923474458f6191c4e0973508c04b8db077f99e",
+      "sources": [
+        "Basic_BubbleColor_Material/surface_programs/roughness"
+      ],
+      "status": "PASS",
+      "returncode": 0,
+      "diagnostics": "Compiled workspace/diagnostics/source_context_20261012/6e9140943dbbb28a82e19eaf82923474458f6191c4e0973508c04b8db077f99e.osl -> workspace/diagnostics/source_context_20261012/6e9140943dbbb28a82e19eaf82923474458f6191c4e0973508c04b8db077f99e.oso\n"
+    },
+    {
+      "source_hash": "c3ad5ea9108c5e09284735e838ed5828aeacdd8b7f6ae7cabce396d481e631c4",
+      "sources": [
+        "Basic_Dynamic_LampShade_Material/emission_program/program",
+        "M_LampShade_Emi_Inst/emission_program/program"
+      ],
+      "status": "PASS",
+      "returncode": 0,
+      "diagnostics": "Compiled workspace/diagnostics/source_context_20261012/c3ad5ea9108c5e09284735e838ed5828aeacdd8b7f6ae7cabce396d481e631c4.osl -> workspace/diagnostics/source_context_20261012/c3ad5ea9108c5e09284735e838ed5828aeacdd8b7f6ae7cabce396d481e631c4.oso\n"
+    },
+    {
+      "source_hash": "5d49e287174f808cf103302ece9b1c02cd34d051133553cfb8c15d71128112c5",
+      "sources": [
+        "Basic_Dynamic_LampShade_Material/normal_program",
+        "M_LampShade_Emi_Inst/normal_program",
+        "M_LampShade_Cone_Inst/normal_program",
+        "M_LampShade_EmiCone_Inst/normal_program"
+      ],
+      "status": "PASS",
+      "returncode": 0,
+      "diagnostics": "Compiled workspace/diagnostics/source_context_20261012/5d49e287174f808cf103302ece9b1c02cd34d051133553cfb8c15d71128112c5.osl -> workspace/diagnostics/source_context_20261012/5d49e287174f808cf103302ece9b1c02cd34d051133553cfb8c15d71128112c5.oso\n"
+    },
+    {
+      "source_hash": "07c266e433d826ed049bd3967a356bad84359fc0745f7c6e0b25419da95b429c",
+      "sources": [
+        "Basic_Dynamic_LampShade_Material/base_color_program",
+        "M_LampShade_Emi_Inst/base_color_program",
+        "M_LampShade_EmiCone_Inst/base_color_program"
+      ],
+      "status": "PASS",
+      "returncode": 0,
+      "diagnostics": "Compiled workspace/diagnostics/source_context_20261012/07c266e433d826ed049bd3967a356bad84359fc0745f7c6e0b25419da95b429c.osl -> workspace/diagnostics/source_context_20261012/07c266e433d826ed049bd3967a356bad84359fc0745f7c6e0b25419da95b429c.oso\n"
+    },
+    {
+      "source_hash": "96047b89cf16631307bc59fb161ef60ec54b9d0adbedc6452ce52b7b8c6e1bf9",
+      "sources": [
+        "Basic_Fabric_Material/fabric_output_program/outputs/base_color",
+        "Basic_Fabric_Material/base_color_program",
+        "Basic_Foliage_Material/base_color_program"
+      ],
+      "status": "PASS",
+      "returncode": 0,
+      "diagnostics": "Compiled workspace/diagnostics/source_context_20261012/96047b89cf16631307bc59fb161ef60ec54b9d0adbedc6452ce52b7b8c6e1bf9.osl -> workspace/diagnostics/source_context_20261012/96047b89cf16631307bc59fb161ef60ec54b9d0adbedc6452ce52b7b8c6e1bf9.oso\n"
+    },
+    {
+      "source_hash": "7c57f8dbcdda967ecda0abb4cd130e2f065dd0df31d3448fb6e5a1aac1265640",
+      "sources": [
+        "Basic_Fabric_Material/fabric_output_program/outputs/fuzz_color"
+      ],
+      "status": "PASS",
+      "returncode": 0,
+      "diagnostics": "Compiled workspace/diagnostics/source_context_20261012/7c57f8dbcdda967ecda0abb4cd130e2f065dd0df31d3448fb6e5a1aac1265640.osl -> workspace/diagnostics/source_context_20261012/7c57f8dbcdda967ecda0abb4cd130e2f065dd0df31d3448fb6e5a1aac1265640.oso\n"
+    },
+    {
+      "source_hash": "d43de89a680a654a862d2e3d9810e7c4e976fa9716309891f52765878dda5c1a",
+      "sources": [
+        "Basic_Fabric_Material/fabric_output_program/outputs/cloth_mask"
+      ],
+      "status": "PASS",
+      "returncode": 0,
+      "diagnostics": "Compiled workspace/diagnostics/source_context_20261012/d43de89a680a654a862d2e3d9810e7c4e976fa9716309891f52765878dda5c1a.osl -> workspace/diagnostics/source_context_20261012/d43de89a680a654a862d2e3d9810e7c4e976fa9716309891f52765878dda5c1a.oso\n"
+    },
+    {
+      "source_hash": "83b3cc03b24bf4f5c5a9788d9923b6a9ba176a0bc4d600f741d553dd6ae09248",
+      "sources": [
+        "Basic_FilmGlass_Material/film_source_outputs/outputs/base_color"
+      ],
+      "status": "PASS",
+      "returncode": 0,
+      "diagnostics": "Compiled workspace/diagnostics/source_context_20261012/83b3cc03b24bf4f5c5a9788d9923b6a9ba176a0bc4d600f741d553dd6ae09248.osl -> workspace/diagnostics/source_context_20261012/83b3cc03b24bf4f5c5a9788d9923b6a9ba176a0bc4d600f741d553dd6ae09248.oso\n"
+    },
+    {
+      "source_hash": "528a4877dc1ea781b3bb561e2a3c5753a63440e07d392c69505bbdcad829acbe",
+      "sources": [
+        "Basic_FilmGlass_Material/film_source_outputs/outputs/normal"
+      ],
+      "status": "PASS",
+      "returncode": 0,
+      "diagnostics": "Compiled workspace/diagnostics/source_context_20261012/528a4877dc1ea781b3bb561e2a3c5753a63440e07d392c69505bbdcad829acbe.osl -> workspace/diagnostics/source_context_20261012/528a4877dc1ea781b3bb561e2a3c5753a63440e07d392c69505bbdcad829acbe.oso\n"
+    },
+    {
+      "source_hash": "f8c587df72919d594eae0c8035fdf23c70b188ac82fdacbf2dbb83f4ce973db0",
+      "sources": [
+        "Basic_FilmGlass_Material/film_source_outputs/outputs/metallic"
+      ],
+      "status": "PASS",
+      "returncode": 0,
+      "diagnostics": "Compiled workspace/diagnostics/source_context_20261012/f8c587df72919d594eae0c8035fdf23c70b188ac82fdacbf2dbb83f4ce973db0.osl -> workspace/diagnostics/source_context_20261012/f8c587df72919d594eae0c8035fdf23c70b188ac82fdacbf2dbb83f4ce973db0.oso\n"
+    },
+    {
+      "source_hash": "ee5daa337cb07dbf03c26cf607977656149e1e12694a4546ddf71b267be868e0",
+      "sources": [
+        "Basic_FilmGlass_Material/film_source_outputs/outputs/roughness"
+      ],
+      "status": "PASS",
+      "returncode": 0,
+      "diagnostics": "Compiled workspace/diagnostics/source_context_20261012/ee5daa337cb07dbf03c26cf607977656149e1e12694a4546ddf71b267be868e0.osl -> workspace/diagnostics/source_context_20261012/ee5daa337cb07dbf03c26cf607977656149e1e12694a4546ddf71b267be868e0.oso\n"
+    },
+    {
+      "source_hash": "56ca92c67b2e2faaf27c711097c70975c90bbe30c8a8b84378263886f7b206bf",
+      "sources": [
+        "Basic_FilmGlass_Material/film_source_outputs/outputs/opacity"
+      ],
+      "status": "PASS",
+      "returncode": 0,
+      "diagnostics": "Compiled workspace/diagnostics/source_context_20261012/56ca92c67b2e2faaf27c711097c70975c90bbe30c8a8b84378263886f7b206bf.osl -> workspace/diagnostics/source_context_20261012/56ca92c67b2e2faaf27c711097c70975c90bbe30c8a8b84378263886f7b206bf.oso\n"
+    },
+    {
+      "source_hash": "bcdd47567088cf621dc52810e7a2812cafe7be11d8474ca6d7e9b5fe4d96686c",
+      "sources": [
+        "Basic_FilmGlass_Material/film_source_outputs/composition_outputs/FinalOpaque"
+      ],
+      "status": "PASS",
+      "returncode": 0,
+      "diagnostics": "Compiled workspace/diagnostics/source_context_20261012/bcdd47567088cf621dc52810e7a2812cafe7be11d8474ca6d7e9b5fe4d96686c.osl -> workspace/diagnostics/source_context_20261012/bcdd47567088cf621dc52810e7a2812cafe7be11d8474ca6d7e9b5fe4d96686c.oso\n"
+    },
+    {
+      "source_hash": "aad3ad4398ead48845d055e359c56d30d05b02493c1eb56725f845189d15f5b4",
+      "sources": [
+        "Basic_FilmGlass_Material/film_source_outputs/composition_outputs/FinalColor"
+      ],
+      "status": "PASS",
+      "returncode": 0,
+      "diagnostics": "Compiled workspace/diagnostics/source_context_20261012/aad3ad4398ead48845d055e359c56d30d05b02493c1eb56725f845189d15f5b4.osl -> workspace/diagnostics/source_context_20261012/aad3ad4398ead48845d055e359c56d30d05b02493c1eb56725f845189d15f5b4.oso\n"
+    },
+    {
+      "source_hash": "cea9b58ca631c3d6f791ff67cc50e7cb08a1c25e5467e24c7d5963a746c2bcaf",
+      "sources": [
+        "Basic_FilmGlass_Material/film_source_outputs/composition_outputs/TransmissionColor"
+      ],
+      "status": "PASS",
+      "returncode": 0,
+      "diagnostics": "Compiled workspace/diagnostics/source_context_20261012/cea9b58ca631c3d6f791ff67cc50e7cb08a1c25e5467e24c7d5963a746c2bcaf.osl -> workspace/diagnostics/source_context_20261012/cea9b58ca631c3d6f791ff67cc50e7cb08a1c25e5467e24c7d5963a746c2bcaf.oso\n"
+    },
+    {
+      "source_hash": "18e6dac5f9ba060cc5af58b5edc26dbd6aa413b54aa8d40264305c0b225abfce",
+      "sources": [
+        "Basic_FilmGlass_Material/film_source_outputs/composition_outputs/TransA"
+      ],
+      "status": "PASS",
+      "returncode": 0,
+      "diagnostics": "Compiled workspace/diagnostics/source_context_20261012/18e6dac5f9ba060cc5af58b5edc26dbd6aa413b54aa8d40264305c0b225abfce.osl -> workspace/diagnostics/source_context_20261012/18e6dac5f9ba060cc5af58b5edc26dbd6aa413b54aa8d40264305c0b225abfce.oso\n"
+    },
+    {
+      "source_hash": "ec2f7ba74a95364bdbfaec4add18cac0d35215efcb9a380aaa7c41558b5201b9",
+      "sources": [
+        "Basic_FilmGlass_Material/film_source_outputs/composition_outputs/TransB"
+      ],
+      "status": "PASS",
+      "returncode": 0,
+      "diagnostics": "Compiled workspace/diagnostics/source_context_20261012/ec2f7ba74a95364bdbfaec4add18cac0d35215efcb9a380aaa7c41558b5201b9.osl -> workspace/diagnostics/source_context_20261012/ec2f7ba74a95364bdbfaec4add18cac0d35215efcb9a380aaa7c41558b5201b9.oso\n"
+    },
+    {
+      "source_hash": "c06adf74c6daf7641bd80eca2d41feff68f562165961bf1da20415f90596f5be",
+      "sources": [
+        "Basic_FilmGlass_Material/film_source_outputs/source_layer_inputs/ColorA"
+      ],
+      "status": "PASS",
+      "returncode": 0,
+      "diagnostics": "Compiled workspace/diagnostics/source_context_20261012/c06adf74c6daf7641bd80eca2d41feff68f562165961bf1da20415f90596f5be.osl -> workspace/diagnostics/source_context_20261012/c06adf74c6daf7641bd80eca2d41feff68f562165961bf1da20415f90596f5be.oso\n"
+    },
+    {
+      "source_hash": "f37fbadccaec5858bc76cc8b3713a12859b06b0b17609d167e27c0de8d53c5be",
+      "sources": [
+        "Basic_FilmGlass_Material/film_source_outputs/source_layer_inputs/OpaqueA"
+      ],
+      "status": "PASS",
+      "returncode": 0,
+      "diagnostics": "Compiled workspace/diagnostics/source_context_20261012/f37fbadccaec5858bc76cc8b3713a12859b06b0b17609d167e27c0de8d53c5be.osl -> workspace/diagnostics/source_context_20261012/f37fbadccaec5858bc76cc8b3713a12859b06b0b17609d167e27c0de8d53c5be.oso\n"
+    },
+    {
+      "source_hash": "f434faad6c84e7b50e573ba820c0d1a2f6c4cd1a94bafc103d3415d9e09760bb",
+      "sources": [
+        "Basic_FilmGlass_Material/film_source_outputs/source_layer_inputs/ColorB",
+        "Basic_FrostedGlass_Material/frosted_source_outputs/surface_outputs/MP_BaseColor"
+      ],
+      "status": "PASS",
+      "returncode": 0,
+      "diagnostics": "Compiled workspace/diagnostics/source_context_20261012/f434faad6c84e7b50e573ba820c0d1a2f6c4cd1a94bafc103d3415d9e09760bb.osl -> workspace/diagnostics/source_context_20261012/f434faad6c84e7b50e573ba820c0d1a2f6c4cd1a94bafc103d3415d9e09760bb.oso\n"
+    },
+    {
+      "source_hash": "de64b83b72fca51dc6dcb8207f8578fd5776df9f29699bc4fe4e2fb85520aff9",
+      "sources": [
+        "Basic_FilmGlass_Material/film_source_outputs/source_layer_inputs/OpaqueB"
+      ],
+      "status": "PASS",
+      "returncode": 0,
+      "diagnostics": "Compiled workspace/diagnostics/source_context_20261012/de64b83b72fca51dc6dcb8207f8578fd5776df9f29699bc4fe4e2fb85520aff9.osl -> workspace/diagnostics/source_context_20261012/de64b83b72fca51dc6dcb8207f8578fd5776df9f29699bc4fe4e2fb85520aff9.oso\n"
+    },
+    {
+      "source_hash": "691ae8fb6ae4907901b4118419d788f29bfbbbec7eea01c8f5e7ba354a5b4c7c",
+      "sources": [
+        "Basic_FilmGlass_Material/film_source_outputs/source_layer_inputs/bAOnTop"
+      ],
+      "status": "PASS",
+      "returncode": 0,
+      "diagnostics": "Compiled workspace/diagnostics/source_context_20261012/691ae8fb6ae4907901b4118419d788f29bfbbbec7eea01c8f5e7ba354a5b4c7c.osl -> workspace/diagnostics/source_context_20261012/691ae8fb6ae4907901b4118419d788f29bfbbbec7eea01c8f5e7ba354a5b4c7c.oso\n"
+    },
+    {
+      "source_hash": "15e5a4f5faf183b50566d074e07d38838b6b41f66141a6743f92329599fbe092",
+      "sources": [
+        "Basic_FilmGlass_Material/film_source_outputs/source_layer_properties/glass/roughness"
+      ],
+      "status": "PASS",
+      "returncode": 0,
+      "diagnostics": "Compiled workspace/diagnostics/source_context_20261012/15e5a4f5faf183b50566d074e07d38838b6b41f66141a6743f92329599fbe092.osl -> workspace/diagnostics/source_context_20261012/15e5a4f5faf183b50566d074e07d38838b6b41f66141a6743f92329599fbe092.oso\n"
+    },
+    {
+      "source_hash": "cf404b4e87c6f6c0f8a07fbea3e406089698848787dcb65bcf4682f5d1a99221",
+      "sources": [
+        "Basic_FilmGlass_Material/film_source_outputs/source_layer_properties/glass/metallic"
+      ],
+      "status": "PASS",
+      "returncode": 0,
+      "diagnostics": "Compiled workspace/diagnostics/source_context_20261012/cf404b4e87c6f6c0f8a07fbea3e406089698848787dcb65bcf4682f5d1a99221.osl -> workspace/diagnostics/source_context_20261012/cf404b4e87c6f6c0f8a07fbea3e406089698848787dcb65bcf4682f5d1a99221.oso\n"
+    },
+    {
+      "source_hash": "595602d22c857b46d9c76998080dacc8a1f54f59c635356aac0546178c9d6c38",
+      "sources": [
+        "Basic_FilmGlass_Material/film_source_outputs/source_layer_properties/glass/normal",
+        "Basic_FilmGlass_Material/film_source_outputs/source_layer_properties/film/normal"
+      ],
+      "status": "PASS",
+      "returncode": 0,
+      "diagnostics": "Compiled workspace/diagnostics/source_context_20261012/595602d22c857b46d9c76998080dacc8a1f54f59c635356aac0546178c9d6c38.osl -> workspace/diagnostics/source_context_20261012/595602d22c857b46d9c76998080dacc8a1f54f59c635356aac0546178c9d6c38.oso\n"
+    },
+    {
+      "source_hash": "6b0abb3a071b8b7359669ab04dd8571f99f8baf8f93506fae45a15e6618be347",
+      "sources": [
+        "Basic_FilmGlass_Material/film_source_outputs/source_layer_properties/glass/ior",
+        "Basic_FilmGlass_Material/film_source_outputs/source_layer_properties/film/ior"
+      ],
+      "status": "PASS",
+      "returncode": 0,
+      "diagnostics": "Compiled workspace/diagnostics/source_context_20261012/6b0abb3a071b8b7359669ab04dd8571f99f8baf8f93506fae45a15e6618be347.osl -> workspace/diagnostics/source_context_20261012/6b0abb3a071b8b7359669ab04dd8571f99f8baf8f93506fae45a15e6618be347.oso\n"
+    },
+    {
+      "source_hash": "58a3203f2e255fd6bc7f7b2b2d6f7faf4591578100276a1e88661512870ac35b",
+      "sources": [
+        "Basic_FilmGlass_Material/film_source_outputs/source_layer_properties/film/roughness"
+      ],
+      "status": "PASS",
+      "returncode": 0,
+      "diagnostics": "Compiled workspace/diagnostics/source_context_20261012/58a3203f2e255fd6bc7f7b2b2d6f7faf4591578100276a1e88661512870ac35b.osl -> workspace/diagnostics/source_context_20261012/58a3203f2e255fd6bc7f7b2b2d6f7faf4591578100276a1e88661512870ac35b.oso\n"
+    },
+    {
+      "source_hash": "8b0d9626cd001dc730f66c2388c73112a7b7fa3abfbcf190d807143bfb61720b",
+      "sources": [
+        "Basic_FilmGlass_Material/film_source_outputs/source_layer_properties/film/metallic"
+      ],
+      "status": "PASS",
+      "returncode": 0,
+      "diagnostics": "Compiled workspace/diagnostics/source_context_20261012/8b0d9626cd001dc730f66c2388c73112a7b7fa3abfbcf190d807143bfb61720b.osl -> workspace/diagnostics/source_context_20261012/8b0d9626cd001dc730f66c2388c73112a7b7fa3abfbcf190d807143bfb61720b.oso\n"
+    },
+    {
+      "source_hash": "4141bd34886a8b85b219d0caf16adc510eac7b78499be38a822148e3dc9f1c3e",
+      "sources": [
+        "Basic_FilmGlass_Material/film_source_outputs/source_layer_transmission/film"
+      ],
+      "status": "PASS",
+      "returncode": 0,
+      "diagnostics": "Compiled workspace/diagnostics/source_context_20261012/4141bd34886a8b85b219d0caf16adc510eac7b78499be38a822148e3dc9f1c3e.osl -> workspace/diagnostics/source_context_20261012/4141bd34886a8b85b219d0caf16adc510eac7b78499be38a822148e3dc9f1c3e.oso\n"
+    },
+    {
+      "source_hash": "1fae14c190c4a647f5162c723def4d18dc3dda23e3ce2a56b852d1f48e1d9a31",
+      "sources": [
+        "Basic_FilmGlass_Material/film_source_outputs/source_layer_transmission/glass"
+      ],
+      "status": "PASS",
+      "returncode": 0,
+      "diagnostics": "Compiled workspace/diagnostics/source_context_20261012/1fae14c190c4a647f5162c723def4d18dc3dda23e3ce2a56b852d1f48e1d9a31.osl -> workspace/diagnostics/source_context_20261012/1fae14c190c4a647f5162c723def4d18dc3dda23e3ce2a56b852d1f48e1d9a31.oso\n"
+    },
+    {
+      "source_hash": "1a44618e198fd5e1b7e69975f7a8010de0d3521969266b0222ac9238c6bf3a25",
+      "sources": [
+        "Basic_FilmGlass_Material/film_source_outputs/film_coverage_program"
+      ],
+      "status": "PASS",
+      "returncode": 0,
+      "diagnostics": "Compiled workspace/diagnostics/source_context_20261012/1a44618e198fd5e1b7e69975f7a8010de0d3521969266b0222ac9238c6bf3a25.osl -> workspace/diagnostics/source_context_20261012/1a44618e198fd5e1b7e69975f7a8010de0d3521969266b0222ac9238c6bf3a25.oso\n"
+    },
+    {
+      "source_hash": "2a991a9518e8f7799862feb309c42634346702f281319258b5094b9b4119a3e5",
+      "sources": [
+        "Basic_FilmGlass_Material/film_source_outputs/refraction_source_modes/realtime"
+      ],
+      "status": "PASS",
+      "returncode": 0,
+      "diagnostics": "Compiled workspace/diagnostics/source_context_20261012/2a991a9518e8f7799862feb309c42634346702f281319258b5094b9b4119a3e5.osl -> workspace/diagnostics/source_context_20261012/2a991a9518e8f7799862feb309c42634346702f281319258b5094b9b4119a3e5.oso\n"
+    },
+    {
+      "source_hash": "c3f8b6710bbf78d216f3088efe383a5ea616463e35a8cc255f5257680d6a4b0e",
+      "sources": [
+        "Basic_FilmGlass_Material/film_source_outputs/refraction_source_modes/path_traced"
+      ],
+      "status": "PASS",
+      "returncode": 0,
+      "diagnostics": "Compiled workspace/diagnostics/source_context_20261012/c3f8b6710bbf78d216f3088efe383a5ea616463e35a8cc255f5257680d6a4b0e.osl -> workspace/diagnostics/source_context_20261012/c3f8b6710bbf78d216f3088efe383a5ea616463e35a8cc255f5257680d6a4b0e.oso\n"
+    },
+    {
+      "source_hash": "0a3a054fc8724d90a8d418b38090856ec9a6194172de29c56439cfb63b863f52",
+      "sources": [
+        "Basic_Foliage_Material/opacity_program/mask_program"
+      ],
+      "status": "PASS",
+      "returncode": 0,
+      "diagnostics": "Compiled workspace/diagnostics/source_context_20261012/0a3a054fc8724d90a8d418b38090856ec9a6194172de29c56439cfb63b863f52.osl -> workspace/diagnostics/source_context_20261012/0a3a054fc8724d90a8d418b38090856ec9a6194172de29c56439cfb63b863f52.oso\n"
+    },
+    {
+      "source_hash": "3a13ec9d99ca5edf2aa6dcb03bd593672b0d8d4be3665d1335bf28488521ac86",
+      "sources": [
+        "Basic_Foliage_Material/normal_program"
+      ],
+      "status": "PASS",
+      "returncode": 0,
+      "diagnostics": "Compiled workspace/diagnostics/source_context_20261012/3a13ec9d99ca5edf2aa6dcb03bd593672b0d8d4be3665d1335bf28488521ac86.osl -> workspace/diagnostics/source_context_20261012/3a13ec9d99ca5edf2aa6dcb03bd593672b0d8d4be3665d1335bf28488521ac86.oso\n"
+    },
+    {
+      "source_hash": "01690aa679442a203b5051cf7b9894f5c792096f9f07b2c1782688041b3df602",
+      "sources": [
+        "Basic_Foliage_Material/foliage_transmission_program"
+      ],
+      "status": "PASS",
+      "returncode": 0,
+      "diagnostics": "Compiled workspace/diagnostics/source_context_20261012/01690aa679442a203b5051cf7b9894f5c792096f9f07b2c1782688041b3df602.osl -> workspace/diagnostics/source_context_20261012/01690aa679442a203b5051cf7b9894f5c792096f9f07b2c1782688041b3df602.oso\n"
+    },
+    {
+      "source_hash": "1154e61b276fa721d5a8a22fb01cfe41a0ddd7764169979039e953e47af0a4b1",
+      "sources": [
+        "Basic_Foliage_Material/surface_programs/metallic"
+      ],
+      "status": "PASS",
+      "returncode": 0,
+      "diagnostics": "Compiled workspace/diagnostics/source_context_20261012/1154e61b276fa721d5a8a22fb01cfe41a0ddd7764169979039e953e47af0a4b1.osl -> workspace/diagnostics/source_context_20261012/1154e61b276fa721d5a8a22fb01cfe41a0ddd7764169979039e953e47af0a4b1.oso\n"
+    },
+    {
+      "source_hash": "b81753de6818561314ed7544fdc1c141cf625c603459f7fb8a9ed31b39cc3540",
+      "sources": [
+        "Basic_Foliage_Material/surface_programs/roughness"
+      ],
+      "status": "PASS",
+      "returncode": 0,
+      "diagnostics": "Compiled workspace/diagnostics/source_context_20261012/b81753de6818561314ed7544fdc1c141cf625c603459f7fb8a9ed31b39cc3540.osl -> workspace/diagnostics/source_context_20261012/b81753de6818561314ed7544fdc1c141cf625c603459f7fb8a9ed31b39cc3540.oso\n"
+    },
+    {
+      "source_hash": "edf7a063fae283f177989fcbd9c3a038259c0e28bcdb9c6dba2420cc68b4adcf",
+      "sources": [
+        "Basic_FrostedGlass_Material/normal_program"
+      ],
+      "status": "PASS",
+      "returncode": 0,
+      "diagnostics": "Compiled workspace/diagnostics/source_context_20261012/edf7a063fae283f177989fcbd9c3a038259c0e28bcdb9c6dba2420cc68b4adcf.osl -> workspace/diagnostics/source_context_20261012/edf7a063fae283f177989fcbd9c3a038259c0e28bcdb9c6dba2420cc68b4adcf.oso\n"
+    },
+    {
+      "source_hash": "9009af62f43e3509a903a3a4b9226c8b8751f19670d3583e775e4252f29e1425",
+      "sources": [
+        "Basic_FrostedGlass_Material/frosted_source_outputs/surface_outputs/MP_Metallic",
+        "Basic_FrostedGlass_Material/surface_programs/metallic"
+      ],
+      "status": "PASS",
+      "returncode": 0,
+      "diagnostics": "Compiled workspace/diagnostics/source_context_20261012/9009af62f43e3509a903a3a4b9226c8b8751f19670d3583e775e4252f29e1425.osl -> workspace/diagnostics/source_context_20261012/9009af62f43e3509a903a3a4b9226c8b8751f19670d3583e775e4252f29e1425.oso\n"
+    },
+    {
+      "source_hash": "5b3404f16c41a32be449608604a00b99bac00f8e552b6568bfbc47b6776f2628",
+      "sources": [
+        "Basic_FrostedGlass_Material/frosted_source_outputs/surface_outputs/MP_Roughness",
+        "Basic_FrostedGlass_Material/frosted_source_outputs/physical_source_inputs/glass_roughness",
+        "Basic_FrostedGlass_Material/frosted_source_outputs/screen_blur_dependencies//Game/Art/Master/Materials/Final_Mat/PBR/Basic_FrostedGlass_Material.Basic_FrostedGlass_Material:MaterialExpressionMaterialFunctionCall_10/inputs/6/program",
+        "Basic_FrostedGlass_Material/surface_programs/roughness"
+      ],
+      "status": "PASS",
+      "returncode": 0,
+      "diagnostics": "Compiled workspace/diagnostics/source_context_20261012/5b3404f16c41a32be449608604a00b99bac00f8e552b6568bfbc47b6776f2628.osl -> workspace/diagnostics/source_context_20261012/5b3404f16c41a32be449608604a00b99bac00f8e552b6568bfbc47b6776f2628.oso\n"
+    },
+    {
+      "source_hash": "94d0f8d431a4f596163f484d2efeeafd1d682005458b0c010ceb067371f46c4d",
+      "sources": [
+        "Basic_FrostedGlass_Material/frosted_source_outputs/surface_outputs/MP_Normal"
+      ],
+      "status": "PASS",
+      "returncode": 0,
+      "diagnostics": "Compiled workspace/diagnostics/source_context_20261012/94d0f8d431a4f596163f484d2efeeafd1d682005458b0c010ceb067371f46c4d.osl -> workspace/diagnostics/source_context_20261012/94d0f8d431a4f596163f484d2efeeafd1d682005458b0c010ceb067371f46c4d.oso\n"
+    },
+    {
+      "source_hash": "b6c291b8f05b937371ad4b9d53dfa5c64bffcd064c90b0ecb94055910d6890c8",
+      "sources": [
+        "Basic_FrostedGlass_Material/frosted_source_outputs/surface_outputs/MP_Refraction",
+        "Basic_FrostedGlass_Material/frosted_source_outputs/refraction_source_modes/realtime"
+      ],
+      "status": "PASS",
+      "returncode": 0,
+      "diagnostics": "Compiled workspace/diagnostics/source_context_20261012/b6c291b8f05b937371ad4b9d53dfa5c64bffcd064c90b0ecb94055910d6890c8.osl -> workspace/diagnostics/source_context_20261012/b6c291b8f05b937371ad4b9d53dfa5c64bffcd064c90b0ecb94055910d6890c8.oso\n"
+    },
+    {
+      "source_hash": "6a3515cccc9d291489e5ee6c3b4abd891271f2cb67107d096aa426a3fc507ae2",
+      "sources": [
+        "Basic_FrostedGlass_Material/frosted_source_outputs/physical_source_inputs/glass_opacity"
+      ],
+      "status": "PASS",
+      "returncode": 0,
+      "diagnostics": "Compiled workspace/diagnostics/source_context_20261012/6a3515cccc9d291489e5ee6c3b4abd891271f2cb67107d096aa426a3fc507ae2.osl -> workspace/diagnostics/source_context_20261012/6a3515cccc9d291489e5ee6c3b4abd891271f2cb67107d096aa426a3fc507ae2.oso\n"
+    },
+    {
+      "source_hash": "ce31f2475d7fe1fe7c8b6ab35f65a94af6d5aa31c3e4963e92d3f5525795c101",
+      "sources": [
+        "Basic_FrostedGlass_Material/frosted_source_outputs/physical_source_inputs/glass_transmission"
+      ],
+      "status": "PASS",
+      "returncode": 0,
+      "diagnostics": "Compiled workspace/diagnostics/source_context_20261012/ce31f2475d7fe1fe7c8b6ab35f65a94af6d5aa31c3e4963e92d3f5525795c101.osl -> workspace/diagnostics/source_context_20261012/ce31f2475d7fe1fe7c8b6ab35f65a94af6d5aa31c3e4963e92d3f5525795c101.oso\n"
+    },
+    {
+      "source_hash": "c9de5c7a0c2705d17aaf0b26694843f70abfde1707199500759c7e306b98a2d1",
+      "sources": [
+        "Basic_FrostedGlass_Material/frosted_source_outputs/physical_source_inputs/final_transmission"
+      ],
+      "status": "PASS",
+      "returncode": 0,
+      "diagnostics": "Compiled workspace/diagnostics/source_context_20261012/c9de5c7a0c2705d17aaf0b26694843f70abfde1707199500759c7e306b98a2d1.osl -> workspace/diagnostics/source_context_20261012/c9de5c7a0c2705d17aaf0b26694843f70abfde1707199500759c7e306b98a2d1.oso\n"
+    },
+    {
+      "source_hash": "5a2ae7315bee51a614133edc07c3877870a8021ee725e6ee8be27eda514991a1",
+      "sources": [
+        "Basic_FrostedGlass_Material/frosted_source_outputs/physical_source_inputs/frosted_area",
+        "Basic_FrostedGlass_Material/frosted_source_outputs/physical_source_inputs/frosted_threshold_mask"
+      ],
+      "status": "PASS",
+      "returncode": 0,
+      "diagnostics": "Compiled workspace/diagnostics/source_context_20261012/5a2ae7315bee51a614133edc07c3877870a8021ee725e6ee8be27eda514991a1.osl -> workspace/diagnostics/source_context_20261012/5a2ae7315bee51a614133edc07c3877870a8021ee725e6ee8be27eda514991a1.oso\n"
+    },
+    {
+      "source_hash": "0527eb18b6752910c194930ac07e3ff5fbdc6a24b6cdb88a5c1a8753d7f8f586",
+      "sources": [
+        "Basic_FrostedGlass_Material/frosted_source_outputs/refraction_source_modes/path_traced",
+        "Basic_SimpleGlass_Material/simple_glass_source_outputs/refraction_source_modes/path_traced"
+      ],
+      "status": "PASS",
+      "returncode": 0,
+      "diagnostics": "Compiled workspace/diagnostics/source_context_20261012/0527eb18b6752910c194930ac07e3ff5fbdc6a24b6cdb88a5c1a8753d7f8f586.osl -> workspace/diagnostics/source_context_20261012/0527eb18b6752910c194930ac07e3ff5fbdc6a24b6cdb88a5c1a8753d7f8f586.oso\n"
+    },
+    {
+      "source_hash": "1199a40011fd9d5206942bfa3bed2fd05b76d380da541d71b7ce16bd4115b1ff",
+      "sources": [
+        "Basic_FrostedGlass_Material/frosted_source_outputs/physical_transmission_program"
+      ],
+      "status": "PASS",
+      "returncode": 0,
+      "diagnostics": "Compiled workspace/diagnostics/source_context_20261012/1199a40011fd9d5206942bfa3bed2fd05b76d380da541d71b7ce16bd4115b1ff.osl -> workspace/diagnostics/source_context_20261012/1199a40011fd9d5206942bfa3bed2fd05b76d380da541d71b7ce16bd4115b1ff.oso\n"
+    },
+    {
+      "source_hash": "ec83511cc3fdea7973006fc3a9540bccb07c245fee013f47ac8a17e4f8a2ab0f",
+      "sources": [
+        "Basic_FrostedGlass_Material/frosted_source_outputs/screen_blur_dependencies//Game/Art/Master/Materials/Final_Mat/PBR/Basic_FrostedGlass_Material.Basic_FrostedGlass_Material:MaterialExpressionMaterialFunctionCall_10/inputs/0/program"
+      ],
+      "status": "PASS",
+      "returncode": 0,
+      "diagnostics": "Compiled workspace/diagnostics/source_context_20261012/ec83511cc3fdea7973006fc3a9540bccb07c245fee013f47ac8a17e4f8a2ab0f.osl -> workspace/diagnostics/source_context_20261012/ec83511cc3fdea7973006fc3a9540bccb07c245fee013f47ac8a17e4f8a2ab0f.oso\n"
+    },
+    {
+      "source_hash": "4866e87fd3dbef3e66e113416ecb7506c073bbe144210a8d064fef51946490aa",
+      "sources": [
+        "Basic_FrostedGlass_Material/frosted_source_outputs/screen_blur_dependencies//Game/Art/Master/Materials/Final_Mat/PBR/Basic_FrostedGlass_Material.Basic_FrostedGlass_Material:MaterialExpressionMaterialFunctionCall_10/inputs/1/program",
+        "Basic_FrostedGlass_Material/frosted_source_outputs/screen_blur_dependencies//Game/Art/Master/Materials/Final_Mat/PBR/Basic_FrostedGlass_Material.Basic_FrostedGlass_Material:MaterialExpressionMaterialFunctionCall_10/inputs/2/program"
+      ],
+      "status": "PASS",
+      "returncode": 0,
+      "diagnostics": "Compiled workspace/diagnostics/source_context_20261012/4866e87fd3dbef3e66e113416ecb7506c073bbe144210a8d064fef51946490aa.osl -> workspace/diagnostics/source_context_20261012/4866e87fd3dbef3e66e113416ecb7506c073bbe144210a8d064fef51946490aa.oso\n"
+    },
+    {
+      "source_hash": "f73016d1ad73bf0160f318aec0acd0a755925114d9d2a6b19d9ce43983fa6add",
+      "sources": [
+        "Basic_FrostedGlass_Material/frosted_source_outputs/screen_blur_dependencies//Game/Art/Master/Materials/Final_Mat/PBR/Basic_FrostedGlass_Material.Basic_FrostedGlass_Material:MaterialExpressionMaterialFunctionCall_10/inputs/3/program"
+      ],
+      "status": "PASS",
+      "returncode": 0,
+      "diagnostics": "Compiled workspace/diagnostics/source_context_20261012/f73016d1ad73bf0160f318aec0acd0a755925114d9d2a6b19d9ce43983fa6add.osl -> workspace/diagnostics/source_context_20261012/f73016d1ad73bf0160f318aec0acd0a755925114d9d2a6b19d9ce43983fa6add.oso\n"
+    },
+    {
+      "source_hash": "e20b946665e42622fb6e862ea2670f362165a76fe5e49338a70b7a419c2448b6",
+      "sources": [
+        "Basic_FrostedGlass_Material/frosted_source_outputs/screen_blur_dependencies//Game/Art/Master/Materials/Final_Mat/PBR/Basic_FrostedGlass_Material.Basic_FrostedGlass_Material:MaterialExpressionMaterialFunctionCall_10/inputs/4/program",
+        "Basic_FrostedGlass_Material/frosted_source_outputs/screen_blur_dependencies//Game/Art/Master/Materials/Final_Mat/PBR/Basic_FrostedGlass_Material.Basic_FrostedGlass_Material:MaterialExpressionMaterialFunctionCall_10/inputs/5/program"
+      ],
+      "status": "PASS",
+      "returncode": 0,
+      "diagnostics": "Compiled workspace/diagnostics/source_context_20261012/e20b946665e42622fb6e862ea2670f362165a76fe5e49338a70b7a419c2448b6.osl -> workspace/diagnostics/source_context_20261012/e20b946665e42622fb6e862ea2670f362165a76fe5e49338a70b7a419c2448b6.oso\n"
+    },
+    {
+      "source_hash": "9617ad387e553dd5f49273908b5eba80ccabd632bc1de0643203ce77ada7239f",
+      "sources": [
+        "Basic_Sheers_Material/opacity_program/mask_program"
+      ],
+      "status": "PASS",
+      "returncode": 0,
+      "diagnostics": "Compiled workspace/diagnostics/source_context_20261012/9617ad387e553dd5f49273908b5eba80ccabd632bc1de0643203ce77ada7239f.osl -> workspace/diagnostics/source_context_20261012/9617ad387e553dd5f49273908b5eba80ccabd632bc1de0643203ce77ada7239f.oso\n"
+    },
+    {
+      "source_hash": "ecbaa3cf55c08882fccd6724d750d2bc9e1e67327d52d2067df9904602c62a9e",
+      "sources": [
+        "Basic_Sheers_Material/subsurface_opacity_program"
+      ],
+      "status": "PASS",
+      "returncode": 0,
+      "diagnostics": "Compiled workspace/diagnostics/source_context_20261012/ecbaa3cf55c08882fccd6724d750d2bc9e1e67327d52d2067df9904602c62a9e.osl -> workspace/diagnostics/source_context_20261012/ecbaa3cf55c08882fccd6724d750d2bc9e1e67327d52d2067df9904602c62a9e.oso\n"
+    },
+    {
+      "source_hash": "ded17ea61db665e1c288a90dd0fd61d84f0c19b44a1fb66922b2ac66871aac0c",
+      "sources": [
+        "Basic_Sheers_Material/normal_program"
+      ],
+      "status": "PASS",
+      "returncode": 0,
+      "diagnostics": "Compiled workspace/diagnostics/source_context_20261012/ded17ea61db665e1c288a90dd0fd61d84f0c19b44a1fb66922b2ac66871aac0c.osl -> workspace/diagnostics/source_context_20261012/ded17ea61db665e1c288a90dd0fd61d84f0c19b44a1fb66922b2ac66871aac0c.oso\n"
+    },
+    {
+      "source_hash": "a46f6e79c64222ddb9817ccf4d51b380e2ea605c4926e6f52195ea631341e0bb",
+      "sources": [
+        "Basic_Sheers_Material/sheers_color_program/fuzzy_program"
+      ],
+      "status": "PASS",
+      "returncode": 0,
+      "diagnostics": "Compiled workspace/diagnostics/source_context_20261012/a46f6e79c64222ddb9817ccf4d51b380e2ea605c4926e6f52195ea631341e0bb.osl -> workspace/diagnostics/source_context_20261012/a46f6e79c64222ddb9817ccf4d51b380e2ea605c4926e6f52195ea631341e0bb.oso\n"
+    },
+    {
+      "source_hash": "254a75c7020a79441f0c83b9948d604abf55eb52104b7bef8f92c831a4528a02",
+      "sources": [
+        "Basic_Sheers_Material/sheers_color_program/subsurface_color_program"
+      ],
+      "status": "PASS",
+      "returncode": 0,
+      "diagnostics": "Compiled workspace/diagnostics/source_context_20261012/254a75c7020a79441f0c83b9948d604abf55eb52104b7bef8f92c831a4528a02.osl -> workspace/diagnostics/source_context_20261012/254a75c7020a79441f0c83b9948d604abf55eb52104b7bef8f92c831a4528a02.oso\n"
+    },
+    {
+      "source_hash": "2586abb1f4541b2a04479a091be785b39e82883116e785ad39e250c5eb08b3a2",
+      "sources": [
+        "Basic_Sheers_Material/surface_programs/metallic"
+      ],
+      "status": "PASS",
+      "returncode": 0,
+      "diagnostics": "Compiled workspace/diagnostics/source_context_20261012/2586abb1f4541b2a04479a091be785b39e82883116e785ad39e250c5eb08b3a2.osl -> workspace/diagnostics/source_context_20261012/2586abb1f4541b2a04479a091be785b39e82883116e785ad39e250c5eb08b3a2.oso\n"
+    },
+    {
+      "source_hash": "11d58e17bc4a4be88693d1747c101469c223f4502943e7b5458638d855a7530a",
+      "sources": [
+        "Basic_Sheers_Material/surface_programs/roughness"
+      ],
+      "status": "PASS",
+      "returncode": 0,
+      "diagnostics": "Compiled workspace/diagnostics/source_context_20261012/11d58e17bc4a4be88693d1747c101469c223f4502943e7b5458638d855a7530a.osl -> workspace/diagnostics/source_context_20261012/11d58e17bc4a4be88693d1747c101469c223f4502943e7b5458638d855a7530a.oso\n"
+    },
+    {
+      "source_hash": "21a2b3d8a88a7396d8225536092904501fa94e45ed795798f2d0bf56bcd80db9",
+      "sources": [
+        "Basic_SimpleGlass_Material/normal_program"
+      ],
+      "status": "PASS",
+      "returncode": 0,
+      "diagnostics": "Compiled workspace/diagnostics/source_context_20261012/21a2b3d8a88a7396d8225536092904501fa94e45ed795798f2d0bf56bcd80db9.osl -> workspace/diagnostics/source_context_20261012/21a2b3d8a88a7396d8225536092904501fa94e45ed795798f2d0bf56bcd80db9.oso\n"
+    },
+    {
+      "source_hash": "6db6e77d321735bfaef0d2ce5dd792b6b2da83ba5a6c069143d4425b1617f3a2",
+      "sources": [
+        "Basic_SimpleGlass_Material/simple_glass_source_outputs/surface_outputs/MP_EmissiveColor"
+      ],
+      "status": "PASS",
+      "returncode": 0,
+      "diagnostics": "Compiled workspace/diagnostics/source_context_20261012/6db6e77d321735bfaef0d2ce5dd792b6b2da83ba5a6c069143d4425b1617f3a2.osl -> workspace/diagnostics/source_context_20261012/6db6e77d321735bfaef0d2ce5dd792b6b2da83ba5a6c069143d4425b1617f3a2.oso\n"
+    },
+    {
+      "source_hash": "e5dca415d115b5fc0727e39c3427e04cdda3fda1a60f0b9d92b34d669f948bfe",
+      "sources": [
+        "Basic_SimpleGlass_Material/simple_glass_source_outputs/surface_outputs/MP_Opacity"
+      ],
+      "status": "PASS",
+      "returncode": 0,
+      "diagnostics": "Compiled workspace/diagnostics/source_context_20261012/e5dca415d115b5fc0727e39c3427e04cdda3fda1a60f0b9d92b34d669f948bfe.osl -> workspace/diagnostics/source_context_20261012/e5dca415d115b5fc0727e39c3427e04cdda3fda1a60f0b9d92b34d669f948bfe.oso\n"
+    },
+    {
+      "source_hash": "ff8ea558716770530db2519f30baaf89327569905d6dd1a8997dcf9c3e061fd7",
+      "sources": [
+        "Basic_SimpleGlass_Material/simple_glass_source_outputs/surface_outputs/MP_BaseColor"
+      ],
+      "status": "PASS",
+      "returncode": 0,
+      "diagnostics": "Compiled workspace/diagnostics/source_context_20261012/ff8ea558716770530db2519f30baaf89327569905d6dd1a8997dcf9c3e061fd7.osl -> workspace/diagnostics/source_context_20261012/ff8ea558716770530db2519f30baaf89327569905d6dd1a8997dcf9c3e061fd7.oso\n"
+    },
+    {
+      "source_hash": "f9ec705f609090c3a8d536e05b824515b210579afb95ea5605c27f8b33a1e1b5",
+      "sources": [
+        "Basic_SimpleGlass_Material/simple_glass_source_outputs/surface_outputs/MP_Metallic",
+        "Basic_SimpleGlass_Material/surface_programs/metallic"
+      ],
+      "status": "PASS",
+      "returncode": 0,
+      "diagnostics": "Compiled workspace/diagnostics/source_context_20261012/f9ec705f609090c3a8d536e05b824515b210579afb95ea5605c27f8b33a1e1b5.osl -> workspace/diagnostics/source_context_20261012/f9ec705f609090c3a8d536e05b824515b210579afb95ea5605c27f8b33a1e1b5.oso\n"
+    },
+    {
+      "source_hash": "3289dc882c7a16a9c0b9b3783869ca3690bfaddcb65036d909b5e7e0dde05c97",
+      "sources": [
+        "Basic_SimpleGlass_Material/simple_glass_source_outputs/surface_outputs/MP_Roughness",
+        "Basic_SimpleGlass_Material/surface_programs/roughness"
+      ],
+      "status": "PASS",
+      "returncode": 0,
+      "diagnostics": "Compiled workspace/diagnostics/source_context_20261012/3289dc882c7a16a9c0b9b3783869ca3690bfaddcb65036d909b5e7e0dde05c97.osl -> workspace/diagnostics/source_context_20261012/3289dc882c7a16a9c0b9b3783869ca3690bfaddcb65036d909b5e7e0dde05c97.oso\n"
+    },
+    {
+      "source_hash": "3c312a40edbaa7f3704bcf6687f71390d5c913a0e0e9ffbe7e41c88384e5b409",
+      "sources": [
+        "Basic_SimpleGlass_Material/simple_glass_source_outputs/surface_outputs/MP_Normal"
+      ],
+      "status": "PASS",
+      "returncode": 0,
+      "diagnostics": "Compiled workspace/diagnostics/source_context_20261012/3c312a40edbaa7f3704bcf6687f71390d5c913a0e0e9ffbe7e41c88384e5b409.osl -> workspace/diagnostics/source_context_20261012/3c312a40edbaa7f3704bcf6687f71390d5c913a0e0e9ffbe7e41c88384e5b409.oso\n"
+    },
+    {
+      "source_hash": "cbf07e90949c57fba3c68f2b88c7a1ebc15caac36bebae63c98e202f0c399f31",
+      "sources": [
+        "Basic_SimpleGlass_Material/simple_glass_source_outputs/surface_outputs/MP_Refraction",
+        "Basic_SimpleGlass_Material/simple_glass_source_outputs/refraction_source_modes/realtime"
+      ],
+      "status": "PASS",
+      "returncode": 0,
+      "diagnostics": "Compiled workspace/diagnostics/source_context_20261012/cbf07e90949c57fba3c68f2b88c7a1ebc15caac36bebae63c98e202f0c399f31.osl -> workspace/diagnostics/source_context_20261012/cbf07e90949c57fba3c68f2b88c7a1ebc15caac36bebae63c98e202f0c399f31.oso\n"
+    },
+    {
+      "source_hash": "04ab3abfd0bfa68b1fb5b6c8b97297f1b0c62f088c68248d198370672f0ecdd9",
+      "sources": [
+        "Basic_SimpleGlass_Material/simple_glass_source_outputs/physical_transmission_program"
+      ],
+      "status": "PASS",
+      "returncode": 0,
+      "diagnostics": "Compiled workspace/diagnostics/source_context_20261012/04ab3abfd0bfa68b1fb5b6c8b97297f1b0c62f088c68248d198370672f0ecdd9.osl -> workspace/diagnostics/source_context_20261012/04ab3abfd0bfa68b1fb5b6c8b97297f1b0c62f088c68248d198370672f0ecdd9.oso\n"
+    },
+    {
+      "source_hash": "932ad2344ab38d3aed9c0b33a75244d7a974a89a788a4c947a10bb44608415aa",
+      "sources": [
+        "Basic_TilingWithFrames_Material/normal_program"
+      ],
+      "status": "PASS",
+      "returncode": 0,
+      "diagnostics": "Compiled workspace/diagnostics/source_context_20261012/932ad2344ab38d3aed9c0b33a75244d7a974a89a788a4c947a10bb44608415aa.osl -> workspace/diagnostics/source_context_20261012/932ad2344ab38d3aed9c0b33a75244d7a974a89a788a4c947a10bb44608415aa.oso\n"
+    },
+    {
+      "source_hash": "9077899df0c81d615221e98b97e3ea289ffb1dc54775ffda5a065c520af5529d",
+      "sources": [
+        "Basic_TilingWithFrames_Material/base_color_program"
+      ],
+      "status": "PASS",
+      "returncode": 0,
+      "diagnostics": "Compiled workspace/diagnostics/source_context_20261012/9077899df0c81d615221e98b97e3ea289ffb1dc54775ffda5a065c520af5529d.osl -> workspace/diagnostics/source_context_20261012/9077899df0c81d615221e98b97e3ea289ffb1dc54775ffda5a065c520af5529d.oso\n"
+    },
+    {
+      "source_hash": "f95812ab9780827d6491b6c9639a2d4c0a4afbdd52d0d4510b9b9a00a8bef633",
+      "sources": [
+        "Basic_TilingWithMural_Material/opacity_program/mask_program"
+      ],
+      "status": "PASS",
+      "returncode": 0,
+      "diagnostics": "Compiled workspace/diagnostics/source_context_20261012/f95812ab9780827d6491b6c9639a2d4c0a4afbdd52d0d4510b9b9a00a8bef633.osl -> workspace/diagnostics/source_context_20261012/f95812ab9780827d6491b6c9639a2d4c0a4afbdd52d0d4510b9b9a00a8bef633.oso\n"
+    },
+    {
+      "source_hash": "e43457bf46179c55576f29489547a188fccaaf2f8545af9e3e4aaa0a82a1f3d5",
+      "sources": [
+        "Basic_TilingWithMural_Material/normal_program"
+      ],
+      "status": "PASS",
+      "returncode": 0,
+      "diagnostics": "Compiled workspace/diagnostics/source_context_20261012/e43457bf46179c55576f29489547a188fccaaf2f8545af9e3e4aaa0a82a1f3d5.osl -> workspace/diagnostics/source_context_20261012/e43457bf46179c55576f29489547a188fccaaf2f8545af9e3e4aaa0a82a1f3d5.oso\n"
+    },
+    {
+      "source_hash": "c4c035b891dd749b8c6ea679d5330933309f2901535ffb3cdd0112ad6eba97f2",
+      "sources": [
+        "Basic_TilingWithMural_Material/surface_programs/metallic"
+      ],
+      "status": "PASS",
+      "returncode": 0,
+      "diagnostics": "Compiled workspace/diagnostics/source_context_20261012/c4c035b891dd749b8c6ea679d5330933309f2901535ffb3cdd0112ad6eba97f2.osl -> workspace/diagnostics/source_context_20261012/c4c035b891dd749b8c6ea679d5330933309f2901535ffb3cdd0112ad6eba97f2.oso\n"
+    },
+    {
+      "source_hash": "d36c08925968280ecf4389d5741f1803c5f651593cc96c84993fabb072325ce2",
+      "sources": [
+        "Basic_TilingWithMural_Material/surface_programs/roughness"
+      ],
+      "status": "PASS",
+      "returncode": 0,
+      "diagnostics": "Compiled workspace/diagnostics/source_context_20261012/d36c08925968280ecf4389d5741f1803c5f651593cc96c84993fabb072325ce2.osl -> workspace/diagnostics/source_context_20261012/d36c08925968280ecf4389d5741f1803c5f651593cc96c84993fabb072325ce2.oso\n"
+    },
+    {
+      "source_hash": "b62e1db036804062132c4753fbdc5fd3161a945b16985f3c56576cf90dfec286",
+      "sources": [
+        "Basic_TilingWithMural_Material/base_color_program"
+      ],
+      "status": "PASS",
+      "returncode": 0,
+      "diagnostics": "Compiled workspace/diagnostics/source_context_20261012/b62e1db036804062132c4753fbdc5fd3161a945b16985f3c56576cf90dfec286.osl -> workspace/diagnostics/source_context_20261012/b62e1db036804062132c4753fbdc5fd3161a945b16985f3c56576cf90dfec286.oso\n"
+    },
+    {
+      "source_hash": "0d11ec105eb684b8692b767148278ed80c1cba51ed5b6fe2c7617cd1a4e6bc53",
+      "sources": [
+        "M_LampShade_Cone_Inst/base_color_program"
+      ],
+      "status": "PASS",
+      "returncode": 0,
+      "diagnostics": "Compiled workspace/diagnostics/source_context_20261012/0d11ec105eb684b8692b767148278ed80c1cba51ed5b6fe2c7617cd1a4e6bc53.osl -> workspace/diagnostics/source_context_20261012/0d11ec105eb684b8692b767148278ed80c1cba51ed5b6fe2c7617cd1a4e6bc53.oso\n"
+    },
+    {
+      "source_hash": "7796939fa311fda8b35b8bb6f33e440af2698a6c209abd3bb02cd67770ab9948",
+      "sources": [
+        "M_LampShade_EmiCone_Inst/emission_program/program"
+      ],
+      "status": "PASS",
+      "returncode": 0,
+      "diagnostics": "Compiled workspace/diagnostics/source_context_20261012/7796939fa311fda8b35b8bb6f33e440af2698a6c209abd3bb02cd67770ab9948.osl -> workspace/diagnostics/source_context_20261012/7796939fa311fda8b35b8bb6f33e440af2698a6c209abd3bb02cd67770ab9948.oso\n"
+    }
+  ],
+  "status": "PASS"
+}

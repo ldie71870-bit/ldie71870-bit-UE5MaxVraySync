@@ -1,0 +1,74 @@
+{
+  "pid": 53716,
+  "asset": "/Game/Art/Meshes/260325LJH/chuanglian_270x22x86/chuanglian_270x22x86.chuanglian_270x22x86",
+  "status": "ACTUAL_SOURCE_RENDERED_REQUIRES_VISUAL_REVIEW",
+  "rendered": true,
+  "expected_source_faces": 8996,
+  "max_submit_to_finish_seconds": 4.357433299999684,
+  "submission_materials": [
+    {
+      "id": "/Game/Art/MaterialInstances/260325LJH/chuanglian_270x22x86/M_Sheers_PBR.M_Sheers_PBR",
+      "master": "Basic_Sheers_Material",
+      "status": "PARTIAL",
+      "notes": [
+        "Two Sided Foliage density/SSS angular lighting requires physical mapping; Opacity Density must not replace the cutout mask",
+        "Source subsurface color drives V-Ray two-sided translucency; UE angular scatter/shadow-density equivalence requires rendered acceptance",
+        "Fuzzy source basis/camera/two-sided runtime parity not accepted",
+        "full desktop master feature coverage has not passed validation",
+        "Fuzzy source math attached; source NTB/view runtime and rendered parity still pending",
+        "opacity_density value preserved in plan; native mapping pending",
+        "Final source BaseColor clamped to UE property range 0–1; internal color/subsurface arithmetic retained",
+        "Actual source MP_SubsurfaceColor arithmetic attached to V-Ray two-sided translucency; cutout retained separately; UE angular scatter and opacity-density shadows remain unverified",
+        "Full master coverage not validated"
+      ],
+      "run_mode": "preview",
+      "degraded": false,
+      "coverage_status": "partial",
+      "native_material": "M_Sheers_PBR__TwoSidedSource"
+    }
+  ],
+  "scene_geometry": [
+    {
+      "id": "project_asset_test:/Game/Art/Meshes/260325LJH/chuanglian_270x22x86/chuanglian_270x22x86.chuanglian_270x22x86",
+      "faces": 8996,
+      "uv": {
+        "restored_channels": [],
+        "verified_vertices": 26988,
+        "matched_faces": 8996,
+        "method": "sdk_verified_vertex_instances"
+      },
+      "basis": {
+        "reserved_channels": {
+          "pixel_tangent": 8,
+          "handedness": 9,
+          "normal": 11,
+          "tangent": 12,
+          "bitangent": 13
+        },
+        "marker_channel": 10,
+        "gpu_channel_compatible": true,
+        "verified_vertices": 26988,
+        "matched_faces": 8996,
+        "status": "RESTORED_UNVERIFIED"
+      },
+      "slots": {
+        "status": "PASS",
+        "face_checks": 8996,
+        "remapped": true,
+        "slot_ids": {
+          "0": 2
+        },
+        "source_face_counts": {
+          "0": 8996
+        }
+      },
+      "stages_ms": {
+        "source_slot_remap": 0.0009997747838497162,
+        "source_native_inputs": 156.42090002074838
+      },
+      "glass_mode": null,
+      "geometry_cache_hit": true
+    }
+  ],
+  "scope": "Max submit-to-finish, not UE export or rendering or user-click end-to-end"
+}

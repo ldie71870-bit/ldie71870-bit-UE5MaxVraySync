@@ -1,0 +1,48 @@
+{
+  "status": "SOURCE_PAIR_CAPTURED_PARITY_NOT_ACCEPTED",
+  "width": 1920,
+  "height": 1440,
+  "ue_bbox": [
+    770,
+    119,
+    1148,
+    1320
+  ],
+  "vray_bbox": [
+    770,
+    119,
+    1149,
+    1320
+  ],
+  "ue_foreground_pixels": 416754,
+  "vray_foreground_pixels": 418499,
+  "silhouette_iou": 0.9958303365121541,
+  "interior_rgb_mean_absolute_difference_255": [
+    31.118042028325707,
+    29.940607064759046,
+    30.36605243714036
+  ],
+  "ue_interior_mean_255": [
+    216.58489627257958,
+    220.27748795299118,
+    218.96504936972437
+  ],
+  "vray_interior_mean_255": [
+    208.4676329151398,
+    209.70470461505548,
+    209.19697139317407
+  ],
+  "ue_interior_stddev_255": [
+    34.039756456555835,
+    32.01981451128216,
+    32.80370909166182
+  ],
+  "vray_interior_stddev_255": [
+    13.864715429031175,
+    13.845530538673017,
+    13.854488365078547
+  ],
+  "ue_lit_max_rgb": 203,
+  "ue_lit_status": "CALIBRATION_PENDING",
+  "scope": "Camera placement and silhouette comparison on original textured project curtain. Color measurements are uncalibrated; UE GBuffer and V-Ray emission/output transforms and texture filtering differ. High silhouette overlap does not prove material, topology, UV or optical equivalence."
+}

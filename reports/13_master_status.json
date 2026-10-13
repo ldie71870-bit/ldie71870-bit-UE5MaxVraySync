@@ -1,0 +1,93 @@
+[
+  {
+    "master": "Basic_StandardMaterial",
+    "source_instance": "/Game/Art/MaterialInstances/0513/PBR/Bag/Bag_StandardMaterial_PBR.Bag_StandardMaterial_PBR",
+    "source_read": "fresh_13_source_snapshot",
+    "final_optical_acceptance": "PARTIAL",
+    "remaining": "最终颜色、粗糙度和真实 UV 对照"
+  },
+  {
+    "master": "Basic_GLB_Material",
+    "source_instance": "/Game/Art/Master/MaterialInstances/PBR/AIMesh/M_AIMesh_Inst.M_AIMesh_Inst",
+    "source_read": "fresh_13_source_snapshot",
+    "final_optical_acceptance": "PARTIAL",
+    "remaining": "Alpha/发光与最终 PBR 外观"
+  },
+  {
+    "master": "Basic_Anisotropy_Material",
+    "source_instance": "/Game/Art/Master/MaterialInstances/PBR/Anisotropy/M_Anisotropy_Inst.M_Anisotropy_Inst",
+    "source_read": "fresh_13_source_snapshot",
+    "final_optical_acceptance": "PARTIAL",
+    "remaining": "方向轴、镜像姿态与反射能量"
+  },
+  {
+    "master": "Basic_BubbleColor_Material",
+    "source_instance": "/Game/Art/Master/MaterialInstances/PBR/BubbleColor/M_SimpleBubble_Inst.M_SimpleBubble_Inst",
+    "source_read": "fresh_13_source_snapshot",
+    "final_optical_acceptance": "PARTIAL",
+    "remaining": "变体颜色和最终外观"
+  },
+  {
+    "master": "Basic_Dynamic_LampShade_Material",
+    "source_instance": "/Game/Art/Master/MaterialInstances/PBR/LampShade/M_LampShade_Emi_Inst.M_LampShade_Emi_Inst",
+    "source_read": "fresh_13_source_snapshot",
+    "final_optical_acceptance": "PARTIAL",
+    "remaining": "Ring/Wire、布料透光与灯具光度"
+  },
+  {
+    "master": "Basic_Fabric_Material",
+    "source_instance": "/Game/Art/Master/MaterialInstances/PBR/Basic_PBR_Fabric_Material_Inst.Basic_PBR_Fabric_Material_Inst",
+    "source_read": "fresh_13_source_snapshot",
+    "final_optical_acceptance": "PARTIAL",
+    "remaining": "UE Cloth 与 V-Ray Sheen 的 BRDF"
+  },
+  {
+    "master": "Basic_FilmGlass_Material",
+    "source_instance": "/Game/Art/Master/MaterialInstances/PBR/FilmGlass/M_FilmGlass_Inst.M_FilmGlass_Inst",
+    "source_read": "fresh_13_source_snapshot",
+    "final_optical_acceptance": "PARTIAL",
+    "remaining": "膜层顺序、覆盖率、透射与吸收"
+  },
+  {
+    "master": "Basic_Foliage_Material",
+    "source_instance": "/Game/Art/MaterialInstances/0508/LZ/LZ_Foliage_PBR.LZ_Foliage_PBR",
+    "source_read": "fresh_13_source_snapshot",
+    "final_optical_acceptance": "PARTIAL",
+    "remaining": "角度散射和密度阴影"
+  },
+  {
+    "master": "Basic_FrostedGlass_Material",
+    "source_instance": "/Game/Art/Master/MaterialInstances/PBR/FrostedGlass/M_FrostedGlass_Inst.M_FrostedGlass_Inst",
+    "source_read": "fresh_13_source_snapshot",
+    "final_optical_acceptance": "PARTIAL",
+    "remaining": "屏幕模糊与物理磨砂外观"
+  },
+  {
+    "master": "Basic_Sheers_Material",
+    "source_instance": "/Game/Art/MaterialInstances/0508/MHL/MHL_Sheers_Inst.MHL_Sheers_Inst",
+    "source_read": "fresh_13_source_snapshot",
+    "final_optical_acceptance": "PARTIAL",
+    "remaining": "织纹、Fuzzy 法线、透射散射与阴影"
+  },
+  {
+    "master": "Basic_SimpleGlass_Material",
+    "source_instance": "/Game/Art/MaterialInstances/0519/PBR/GH/GH_SimpleGlass_PBR.GH_SimpleGlass_PBR",
+    "source_read": "fresh_13_source_snapshot",
+    "final_optical_acceptance": "PARTIAL",
+    "remaining": "吸收厚度、反射和透射"
+  },
+  {
+    "master": "Basic_TilingWithFrames_Material",
+    "source_instance": "/Game/Art/Master/MaterialInstances/PBR/TilingWithFrame/M_Tiling_Inst.M_Tiling_Inst",
+    "source_read": "fresh_13_source_snapshot",
+    "final_optical_acceptance": "PARTIAL",
+    "remaining": "真实资产平铺、旋转与接缝"
+  },
+  {
+    "master": "Basic_TilingWithMural_Material",
+    "source_instance": "/Game/Art/Master/MaterialInstances/PBR/Mural/M_Mural_SeamTiling_Inst.M_Mural_SeamTiling_Inst",
+    "source_read": "fresh_13_source_snapshot",
+    "final_optical_acceptance": "PARTIAL",
+    "remaining": "图案尺度、旋转与最终叠层效果"
+  }
+]

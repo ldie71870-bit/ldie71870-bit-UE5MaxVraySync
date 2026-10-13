@@ -1,0 +1,63 @@
+{
+  "pid": 51032,
+  "status": "CAPTURED_CALIBRATION_PENDING",
+  "scope": "Original whole-project curtain; same relative camera geometry as Max surface shot; lighting/exposure calibration not yet accepted",
+  "captures": [
+    {
+      "name": "UE_BASE_COLOR_1920",
+      "source": "<SceneCaptureSource.SCS_BASE_COLOR: 7>",
+      "image": "workspace/diagnostics/paired_curtain_20261013/UE_BASE_COLOR_1920.png",
+      "bytes": 1173227
+    },
+    {
+      "name": "UE_LIT_UNCALIBRATED_1920",
+      "source": "<SceneCaptureSource.SCS_FINAL_COLOR_LDR: 2>",
+      "image": "workspace/diagnostics/paired_curtain_20261013/UE_LIT_UNCALIBRATED_1920.png",
+      "bytes": 1624447
+    }
+  ],
+  "asset": "/Game/Art/Meshes/260325LJH/chuanglian_270x22x86/chuanglian_270x22x86.chuanglian_270x22x86",
+  "slots": [
+    "/Game/Art/MaterialInstances/260325LJH/chuanglian_270x22x86/M_Sheers_PBR.M_Sheers_PBR"
+  ],
+  "camera_position_cm": [
+    -67.66143120845663,
+    595.2563043969917,
+    162.34415147271937
+  ],
+  "camera_target_cm": [
+    -0.01866912841796875,
+    -1.9073486328125e-06,
+    135.28704664070392
+  ],
+  "camera_fov": 40.0,
+  "radius_cm": 270.57104832015466,
+  "width": 1920,
+  "height": 1440,
+  "lights": [
+    {
+      "position_cm": [
+        -405.87524160864996,
+        270.571046412806,
+        622.3149336169823
+      ],
+      "unit": "UNITLESS",
+      "intensity": 3.0,
+      "inverse_squared": false,
+      "falloff_exponent": 0.0
+    },
+    {
+      "position_cm": [
+        -135.3041932884953,
+        -270.5710502275033,
+        270.57257080078125
+      ],
+      "unit": "UNITLESS",
+      "intensity": 1.0,
+      "inverse_squared": false,
+      "falloff_exponent": 0.0
+    }
+  ],
+  "exposure": "manual; physical exposure disabled; bias 0",
+  "light_calibration": "pending; these UE unitless gains are not claimed equivalent to Max Omni multipliers"
+}
